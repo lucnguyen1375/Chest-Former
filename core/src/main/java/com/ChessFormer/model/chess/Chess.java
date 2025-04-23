@@ -1,5 +1,6 @@
 package com.ChessFormer.model.chess;
 
-public class Chess {
+import java.util.ArrayList;
 
+public class Chess {
 }
