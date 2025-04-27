@@ -50,7 +50,7 @@ public class Map {
                 TiledMapTileLayer.Cell cell = ground.getCell(x, y);
                 if (cell != null && cell.getTile() != null) {
                     MapProperties propers = cell.getTile().getProperties();
-                    if (propers.containsKey("Block") && Boolean.TRUE.equals(propers.get("Block"))) { // neu cell duoc set thuoc tinh block = true thi o nay bi chan
+                    if (propers.containsKey("block") && Boolean.TRUE.equals(propers.get("block"))) { // neu cell duoc set thuoc tinh block = true thi o nay bi chan
                         blockedTiles[x][y] = true;
                     }
                 }
