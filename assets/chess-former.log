@@ -1,0 +1,35 @@
+[27/04/2025 18:21:58] === Log started ===
+[27/04/2025 18:21:58] [INFO] class com.badlogic.gdx.utils.Logger: Khởi động Game ChessFormer
+[27/04/2025 18:21:58] [INFO] class com.badlogic.gdx.utils.Logger: Kích thước cửa sổ: 1200x720
+[27/04/2025 18:21:58] [INFO] class com.badlogic.gdx.utils.Logger: Đã tải map : Map_Assets/Map_Level_1.tmx
+[27/04/2025 18:21:58] [INFO] class com.badlogic.gdx.utils.Logger: Thiết lập camera với kích thước: 20x12
+[27/04/2025 18:21:58] [INFO] class com.badlogic.gdx.utils.Logger: Renderer đã được thiết lập với camera
+[27/04/2025 18:21:58] [INFO] class com.badlogic.gdx.utils.Logger: Tạo Chess Actor với Ảnh: Chess_Assets/b_Queen.png
+[27/04/2025 18:21:58] [INFO] class com.badlogic.gdx.utils.Logger: Tạo Stage và thêm Chess Actor vào Stage
+[27/04/2025 18:21:58] [INFO] class com.badlogic.gdx.utils.Logger: Kích thước cửa sổ mới: 1200x720
+[27/04/2025 18:21:58] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [11, 7] - Tọa độ màn hình: [660, 420]
+[27/04/2025 18:21:59] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [8, 5] - Tọa độ màn hình: [480, 300]
+[27/04/2025 18:21:59] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [8, 2] - Tọa độ màn hình: [480, 120]
+[27/04/2025 18:21:59] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [12, 2] - Tọa độ màn hình: [720, 120]
+[27/04/2025 18:21:59] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [14, 2] - Tọa độ màn hình: [840, 120]
+[27/04/2025 18:22:00] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [12, 6] - Tọa độ màn hình: [720, 360]
+[27/04/2025 18:22:00] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [13, 9] - Tọa độ màn hình: [780, 540]
+[27/04/2025 18:22:00] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [9, 8] - Tọa độ màn hình: [540, 480]
+[27/04/2025 18:22:00] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [8, 5] - Tọa độ màn hình: [480, 300]
+[27/04/2025 18:22:02] [INFO] class com.badlogic.gdx.utils.Logger: Kích thước cửa sổ mới: 1920x1051
+[27/04/2025 18:22:02] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [10, 4] - Tọa độ màn hình: [960, 350]
+[27/04/2025 18:22:03] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [12, 8] - Tọa độ màn hình: [1152, 701]
+[27/04/2025 18:22:03] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [14, 9] - Tọa độ màn hình: [1344, 788]
+[27/04/2025 18:22:03] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [13, 4] - Tọa độ màn hình: [1248, 350]
+[27/04/2025 18:22:03] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [3, 3] - Tọa độ màn hình: [288, 263]
+[27/04/2025 18:22:04] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [4, 3] - Tọa độ màn hình: [384, 263]
+[27/04/2025 18:22:04] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [8, 6] - Tọa độ màn hình: [768, 526]
+[27/04/2025 18:22:04] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [11, 5] - Tọa độ màn hình: [1056, 438]
+[27/04/2025 18:22:05] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [10, 6] - Tọa độ màn hình: [960, 526]
+[27/04/2025 18:22:05] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [10, 5] - Tọa độ màn hình: [960, 438]
+[27/04/2025 18:22:06] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [10, 4] - Tọa độ màn hình: [960, 350]
+[27/04/2025 18:22:06] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [10, 4] - Tọa độ màn hình: [960, 350]
+[27/04/2025 18:22:06] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [11, 3] - Tọa độ màn hình: [1056, 263]
+[27/04/2025 18:22:07] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [12, 4] - Tọa độ màn hình: [1152, 350]
+[27/04/2025 18:22:07] [INFO] class com.badlogic.gdx.utils.Logger: Người dùng click vào ô: [13, 5] - Tọa độ màn hình: [1248, 438]
+[27/04/2025 18:22:08] [INFO] class com.badlogic.gdx.utils.Logger: Kích thước cửa sổ mới: 1200x720
