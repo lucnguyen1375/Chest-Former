@@ -1,0 +1,6 @@
+[2025-04-18T20:10:43.853588900] === Log started ===
+[2025-04-18T20:10:43.862731900] [INFO] class com.badlogic.gdx.utils.Logger: ChessFormer started
+[2025-04-18T20:10:43.903124] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded: DemoMap.tmx
+[2025-04-18T20:10:43.938535700] [INFO] class com.badlogic.gdx.utils.Logger: Camera set to ortho with size 15.0x12.0
+[2025-04-18T20:10:43.945931500] [INFO] class com.badlogic.gdx.utils.Logger: Chess actor created with texture: w_Rook.png
+[2025-04-18T20:10:43.957193900] [INFO] class com.badlogic.gdx.utils.Logger: Stage created and chess actor added
