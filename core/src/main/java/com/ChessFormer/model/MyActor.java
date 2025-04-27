@@ -1,4 +1,4 @@
 package com.ChessFormer.model;
 
-public class Actor {
+public class MyActor {
 }
