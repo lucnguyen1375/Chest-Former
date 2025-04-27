@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="DemoMap" tilewidth="32" tileheight="32" tilecount="576" columns="32">
+  <image source="DemoMap.png" width="1044" height="586"/>
+ </tileset>
+ <tileset firstgid="577" name="resized_image_32x32" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="resized_image_32x32.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="578" name="RoundedBlock_TileSet" tilewidth="32" tileheight="32" tilecount="3072" columns="64">
+  <image source="RoundedBlocks/RoundedBlock_TileSet.png" width="2048" height="1536"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="20" height="12">
+  <data encoding="csv">
+70,233,70,233,70,233,70,233,70,233,70,233,70,233,70,233,14,233,14,233,
+233,70,233,70,233,70,233,70,233,70,233,70,233,70,233,14,233,14,233,14,
+70,233,70,233,70,233,70,233,70,233,70,233,70,233,70,233,14,233,14,233,
+233,70,233,70,233,70,233,70,233,70,233,70,233,70,233,14,233,14,233,14,
+70,233,70,75,169,75,169,233,70,233,70,233,70,75,169,75,169,233,14,233,
+233,70,233,70,233,70,233,70,233,70,233,70,233,70,233,14,233,14,233,14,
+70,233,577,577,577,577,70,233,70,233,70,233,70,233,577,577,577,577,14,233,
+233,70,233,70,233,70,233,70,233,70,233,70,233,70,233,14,233,14,233,14,
+70,233,70,233,70,233,70,233,70,233,70,233,70,233,70,233,14,233,14,233,
+233,70,233,70,233,70,233,70,233,70,233,70,233,70,233,14,233,14,233,14,
+70,233,70,233,70,233,70,233,70,233,70,233,70,233,70,233,14,233,14,233,
+233,70,233,70,233,70,233,70,233,70,233,70,233,70,233,14,233,14,233,14
+</data>
+ </layer>
+</map>

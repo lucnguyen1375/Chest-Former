@@ -16,72 +16,59 @@ import com.badlogic.gdx.utils.Logger;
 
 import java.awt.*;
 
-
 /** {@link com.badlogic.gdx.ApplicationListener} implementation shared by all platforms. */
 public class ChessFormer extends ApplicationAdapter {
+
+    private static final int TILE_SIZE = Game_Utilz.TILE_SIZE;
+    private static final String MAP_PATH = Game_Utilz.MAP_FOLDER_PATH + "Map_Level_1.tmx";
+    private static final float UNIT_SCALE = 1/32f;
+
+
+    private int WINDOW_WIDTH;
+    private int WINDOW_HEIGHT;
+
+    private static FileLogger LOGGER;
     private TiledMap map;
     private OrthogonalTiledMapRenderer renderer;
     private OrthographicCamera camera;
-//    private static final Logger LOGGER = new Logger(ChessFormer.class.getName(), Logger.DEBUG);
-    private FileLogger LOGGER;
-    private MyActor chessActor;
-
-    private float chessActorX, chessActorY;
-
-    Stage stage;
 
     private Vector3 tmpVector = new Vector3(); // dùng để chuyển đổi tọa độ
-
-
+    MyActor chessActor;
+    float chessActorX, chessActorY;
+    Stage stage;
 
     @Override
     public void create() {
-        // Khởi tạo logger
         LOGGER = new FileLogger(ChessFormer.class.getName());
         LOGGER.clearExistedLogger();
         LOGGER.info("Khởi động Game ChessFormer");
 
-        int windowWidth = Gdx.graphics.getWidth();
-        int windowHeight = Gdx.graphics.getHeight();
-        LOGGER.info(String.format("Kích thước cửa sổ: %dx%d", windowWidth, windowHeight));
-
+        WINDOW_WIDTH = Gdx.graphics.getWidth();
+        WINDOW_HEIGHT = Gdx.graphics.getHeight();
+        LOGGER.info(String.format("Kích thước cửa sổ: %dx%d", WINDOW_WIDTH, WINDOW_HEIGHT));
 
         // Tải tilemap từ file TMX
-        String mapPath = "DemoMap.tmx";
-        map = new TmxMapLoader().load(mapPath);
-        LOGGER.info("Đã tải map : " + mapPath);
+        map = new TmxMapLoader().load(MAP_PATH);
+        LOGGER.info("Đã tải map : " + MAP_PATH);
 
-
-        // Lấy thuộc tính cơ bản
-        int mapWidth = map.getProperties().get("width", Integer.class);
-        int mapHeight = map.getProperties().get("height", Integer.class);
-        int tileWidth = map.getProperties().get("tilewidth", Integer.class);
-        int tileHeight = map.getProperties().get("tileheight", Integer.class);
-
-        LOGGER.info("Map Width: " + mapWidth);
-        LOGGER.info("Map Height: " + mapHeight);
-        LOGGER.info("Tile Width: " + tileWidth);
-        LOGGER.info("Tile Height: " + tileHeight);
-
-
-        // Tạo renderer với scale 1/32 (tùy thuộc vào kích thước tile của bạn)
-        float unitScale = 1/32f;
-        renderer = new OrthogonalTiledMapRenderer(map, unitScale);
+        // Tạo renderer
+        renderer = new OrthogonalTiledMapRenderer(map, UNIT_SCALE);
 
         // Thiết lập camera
         camera = new OrthographicCamera();
-        camera.setToOrtho(false, 15, 12); // Kích thước bàn cờ 8x8
+        camera.setToOrtho(false, WINDOW_WIDTH / TILE_SIZE, WINDOW_HEIGHT / TILE_SIZE);
         camera.update();
-        LOGGER.info("Thiết lập Camera với số lượng ô: " + camera.viewportWidth + "x" + camera.viewportHeight);
+        LOGGER.info("Thiết lập camera với kích thước: " + WINDOW_WIDTH / TILE_SIZE + "x" + WINDOW_HEIGHT / TILE_SIZE);
 
         renderer.setView(camera);
+        LOGGER.info("Renderer đã được thiết lập với camera");
 
         // Set up chess actor
         chessActorX = 0;
         chessActorY = 0;
         String chessTexturePath = "Chess_Assets/b_Queen.png";
         Texture chessTexture = new Texture(chessTexturePath);
-        chessActor = new MyActor(chessTexture, 0, 0, tileWidth , tileHeight );
+        chessActor = new MyActor(chessTexture, 0, 0, 60 , 60);
         LOGGER.info("Tạo Chess Actor với Ảnh: " + chessTexturePath);
 
         // Set up stage
@@ -106,8 +93,8 @@ public class ChessFormer extends ApplicationAdapter {
                 LOGGER.info(String.format("Người dùng click vào ô: [%d, %d] - Tọa độ màn hình: [%.0f, %.0f]",
                     cellX, cellY, screenPos.x, screenPos.y));
 
-                chessActorX = screenPos.x;
-                chessActorY = screenPos.y;
+                chessActorX = cellX * TILE_SIZE;
+                chessActorY = cellY * TILE_SIZE;
                 return true;
             }
         });
@@ -116,7 +103,7 @@ public class ChessFormer extends ApplicationAdapter {
     @Override
     public void render() {
         // Xóa màn hình
-        Gdx.gl.glClearColor(0.1f, 0.1f, 0.1f, 1);
+        Gdx.gl.glClearColor(0, 0, 0, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
         // Cập nhật camera
