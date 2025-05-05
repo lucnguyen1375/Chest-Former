@@ -1,34 +1,33 @@
 package com.ChessFormer;
 
-import com.badlogic.gdx.ApplicationAdapter;
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.GL20;
-import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.utils.ScreenUtils;
+import com.ChessFormer.screen.MainScreen;
+import com.badlogic.gdx.Game;
 
 /** {@link com.badlogic.gdx.ApplicationListener} implementation shared by all platforms. */
-public class ChessFormer extends ApplicationAdapter {
-    private SpriteBatch batch;
-    private Texture image;
+public class ChessFormer extends Game {
+    private FileLogger LOGGER ;
 
     @Override
     public void create() {
-        batch = new SpriteBatch();
-        image = new Texture("libgdx.png");
+        // Khởi động với màn hình đăng nhập
+        LOGGER = new FileLogger(ChessFormer.class.getName());
+        LOGGER.clearExistedLogger();
+        setScreen(new MainScreen(this));
+        LOGGER.info("Game started - Loaded LoginScreen");
     }
 
     @Override
     public void render() {
-        ScreenUtils.clear(0.15f, 0.15f, 0.2f, 1f);
-        batch.begin();
-        batch.draw(image, 140, 210);
-        batch.end();
+        super.render(); // Tự gọi render() của màn hình hiện tại
     }
 
     @Override
     public void dispose() {
-        batch.dispose();
-        image.dispose();
+        // Hủy màn hình hiện tại nếu cần
+        if (getScreen() != null) {
+            getScreen().dispose();
+        }
+        LOGGER.info("Game disposed - Unloaded Game Screen");
     }
+
 }

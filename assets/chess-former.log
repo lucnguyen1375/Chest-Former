@@ -1,6 +1,15 @@
-[2025-04-18T20:10:43.853588900] === Log started ===
-[2025-04-18T20:10:43.862731900] [INFO] class com.badlogic.gdx.utils.Logger: ChessFormer started
-[2025-04-18T20:10:43.903124] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded: DemoMap.tmx
-[2025-04-18T20:10:43.938535700] [INFO] class com.badlogic.gdx.utils.Logger: Camera set to ortho with size 15.0x12.0
-[2025-04-18T20:10:43.945931500] [INFO] class com.badlogic.gdx.utils.Logger: Chess actor created with texture: w_Rook.png
-[2025-04-18T20:10:43.957193900] [INFO] class com.badlogic.gdx.utils.Logger: Stage created and chess actor added
+[05/05/2025 23:44:34] === Log started ===
+[05/05/2025 23:44:35] [INFO] class com.badlogic.gdx.utils.Logger: Resized MainScreen to: 1200x720
+[05/05/2025 23:44:35] [INFO] class com.badlogic.gdx.utils.Logger: Game started - Loaded LoginScreen
+[05/05/2025 23:44:35] [INFO] class com.badlogic.gdx.utils.Logger: Resized MainScreen to: 1200x720
+[05/05/2025 23:44:36] [INFO] class com.badlogic.gdx.utils.Logger: GameScreen initialized with window size: 1200x720
+[05/05/2025 23:44:36] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded: com.badlogic.gdx.maps.tiled.TiledMap@4ddced80
+[05/05/2025 23:44:36] [INFO] class com.badlogic.gdx.utils.Logger: Block rectangles loaded: 3
+[05/05/2025 23:44:36] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Rook at tilePosition: (5.0,8.0)
+[05/05/2025 23:44:36] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: TargetChess at tilePosition: (11.0,5.0)
+[05/05/2025 23:44:36] [INFO] class com.badlogic.gdx.utils.Logger: Window resized to: 1200x720
+[05/05/2025 23:44:36] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@35047d03
+[05/05/2025 23:44:36] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@5ae50ce6
+[05/05/2025 23:44:38] [INFO] class com.badlogic.gdx.utils.Logger: Window resized to: 1920x1057
+[05/05/2025 23:44:41] [INFO] class com.badlogic.gdx.utils.Logger: Window resized to: 1200x720
+[05/05/2025 23:44:42] [INFO] class com.badlogic.gdx.utils.Logger: Game disposed - Unloaded Game Screen
