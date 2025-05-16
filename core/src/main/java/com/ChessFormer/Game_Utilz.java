@@ -6,4 +6,6 @@ public class Game_Utilz {
     public static float UNIT_SCALE = 1/32f; // Tỉ lệ đơn vị
     public static final String MAP_FOLDER_PATH = "Map_Assets/"; // Đường dẫn đến thư mục chứa bản đồ
 
+    public static final int MAP_LEVEL_MAX = 2;
+
 }
