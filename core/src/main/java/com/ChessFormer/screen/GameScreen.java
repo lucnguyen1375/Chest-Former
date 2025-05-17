@@ -3,11 +3,13 @@ package com.ChessFormer.screen;
 import com.ChessFormer.ChessFormer;
 import com.ChessFormer.FileLogger;
 import com.ChessFormer.model.chess.Chess;
-import com.ChessFormer.model.chess.Dot;
+
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputAdapter;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.maps.MapLayer;
 import com.badlogic.gdx.maps.MapObject;
@@ -18,6 +20,7 @@ import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
 import com.badlogic.gdx.math.Polygon;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.math.Vector3;
+import com.badlogic.gdx.utils.Array;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,10 +42,12 @@ public class GameScreen extends InputAdapter implements Screen {
     private int WINDOW_HEIGHT;
     private List<Polygon> blockRects;
     private List<Chess> playChessList;
-    private List<Dot> dotList;
+
 
     private Chess targetChess;
     private Chess selectedChess;
+
+    Array<Sprite> greenBarSprites = new Array<>();
 
     public GameScreen(ChessFormer game) {
         this.game = game; // kết nối tới Game
@@ -53,7 +58,8 @@ public class GameScreen extends InputAdapter implements Screen {
 
         blockRects = new ArrayList<>();
         playChessList = new ArrayList<>();
-        dotList = new ArrayList<>();
+
+
     }
 
     @Override
@@ -63,7 +69,7 @@ public class GameScreen extends InputAdapter implements Screen {
 
         // Tải bản đồ
         try{
-            map = new TmxMapLoader().load("Map_Assets/Map_Level_2.tmx");
+            map = new TmxMapLoader().load("Map_Assets/Map_Level_15.tmx");
             LOGGER.info("Map loaded: " + map);
         } catch (Exception e) {
             LOGGER.error("Error loading map: " + e.getMessage());
@@ -73,6 +79,7 @@ public class GameScreen extends InputAdapter implements Screen {
         mapRenderer = new OrthogonalTiledMapRenderer(map, UNIT_SCALE);
         loadBlockRects();
         loadChess();
+        loadGreenBar();
 
         // Thiết lập camera
         camera.setToOrtho(false, WINDOW_WIDTH / TILE_SIZE, WINDOW_HEIGHT / TILE_SIZE);
@@ -85,6 +92,8 @@ public class GameScreen extends InputAdapter implements Screen {
     public void render(float delta) {
         Gdx.gl.glClearColor(0, 0, 0, 1);
         Gdx.gl.glClear(Gdx.gl.GL_COLOR_BUFFER_BIT);
+        batch.enableBlending(); // Bật hỗ trợ alpha
+
 
         checkIfHitTargetChess();
 
@@ -102,6 +111,9 @@ public class GameScreen extends InputAdapter implements Screen {
             chess.draw(batch);
         }
         targetChess.draw(batch);
+        for (Sprite sprite : greenBarSprites) {
+            sprite.draw(batch);
+        }
         batch.end();
 
     }
@@ -111,6 +123,7 @@ public class GameScreen extends InputAdapter implements Screen {
         for(Chess chess : playChessList) {
             if (chess.getPosition().equals(targetChess.getPosition())) {
                 targetChess.setRotation(true);
+
                 return;
             }
         }
@@ -121,6 +134,8 @@ public class GameScreen extends InputAdapter implements Screen {
         map = new TmxMapLoader().load(mapFile);
         mapRenderer.setMap(map);
     }
+
+
 
     public void loadBlockRects() {
         blockRects.clear();
@@ -201,6 +216,32 @@ public class GameScreen extends InputAdapter implements Screen {
         }
     }
 
+
+    public void loadGreenBar() {
+        MapLayer greenBar = map.getLayers().get("GreenBar");
+
+        if (greenBar != null) {
+            for (MapObject obj : greenBar.getObjects()) {
+                float x = obj.getProperties().get("x", Float.class);
+                float y = obj.getProperties().get("y", Float.class) - 32;
+                String name = obj.getName();
+
+                String texturePath = "Map_Assets/" + name + "_32x32_top.png";
+
+                Texture texture = new Texture(Gdx.files.internal(texturePath));
+                texture.setFilter(Texture.TextureFilter.Linear, Texture.TextureFilter.Linear);
+
+                Sprite sprite = new Sprite(texture);
+                sprite.setPosition(x * UNIT_SCALE, y * UNIT_SCALE);
+                sprite.setSize(32 * UNIT_SCALE, 32 * UNIT_SCALE);
+
+                greenBarSprites.add(sprite);
+            }
+        }
+    }
+
+
+
     public boolean canMove(Vector2 newPosition) {
         for (Polygon block : blockRects) {
             if (block.contains(newPosition)) {
@@ -209,6 +250,8 @@ public class GameScreen extends InputAdapter implements Screen {
         }
         return true; // Không va chạm với block
     }
+
+
 
     @Override public void resize(int i, int i1) {
         camera.update();
