@@ -38,10 +38,6 @@ public class MapController {
         LOGGER.info("MapController initialized with map: " + mapPath);
     }
 
-    public int getMapLevel() {
-        return mapLevel;
-    }
-
     public void show() {
         loadBlockPolys();
         loadChess();
@@ -54,6 +50,7 @@ public class MapController {
         }
         targetChess.update(delta, blockPolys, chessList);
     }
+
     public TiledMap getMap() {
         return map;
     }
@@ -112,8 +109,7 @@ public class MapController {
             }
         }
     }
-
-
+    
     public void draw(SpriteBatch batch) {
         for (Chess chess : chessList) {
             chess.draw(batch);
@@ -121,8 +117,7 @@ public class MapController {
         targetChess.draw(batch);
     }
 
-    public void touchDown(float x, float y)
-    {
+    public void touchDown(float x, float y) {
         for(Chess chess : chessList) {
             if(chess.getTileBounds().contains(x, y)) {
                 selectedChess = chess;
@@ -134,6 +129,9 @@ public class MapController {
             selectedChess.moveTo((int)x ,(int)y);
         }
     }
+
+    public int getMapLevel() {  return mapLevel;}
+
     public void checkIfHitTargetChess(){
         if (targetChess.IsRotating() == true) return;
         for(Chess chess : chessList) {

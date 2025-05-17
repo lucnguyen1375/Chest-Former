@@ -22,8 +22,7 @@ import com.badlogic.gdx.math.Vector3;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.ChessFormer.Game_Utilz.TILE_SIZE;
-import static com.ChessFormer.Game_Utilz.UNIT_SCALE;
+import static com.ChessFormer.Game_Utilz.*;
 
 public class GameScreen extends InputAdapter implements Screen {
     private FileLogger LOGGER;
@@ -75,7 +74,7 @@ public class GameScreen extends InputAdapter implements Screen {
         loadChess();
 
         // Thiết lập camera
-        camera.setToOrtho(false, WINDOW_WIDTH / TILE_SIZE, WINDOW_HEIGHT / TILE_SIZE);
+        camera.setToOrtho(false, VIEWPORT_WIDTH, VIEWPORT_HEIGHT);
 
         Gdx.input.setInputProcessor(this);
         lastClickedPosition = new Vector2();

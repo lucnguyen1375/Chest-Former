@@ -11,6 +11,7 @@ import com.badlogic.gdx.math.Vector2;
 import java.util.List;
 
 import static com.ChessFormer.Game_Utilz.UNIT_SCALE;
+import static com.ChessFormer.Game_Utilz.GRAVITY;
 
 public class Chess {
     public final FileLogger LOGGER = new FileLogger(Chess.class.getName());
@@ -18,46 +19,25 @@ public class Chess {
     private Sprite sprite;
     private Vector2 position; // WORLD POSITION
     private Vector2 velocity;
-    private Rectangle bounds;
-    private String name;
-    private boolean isGrounded;
-    private final float GRAVITY = 9.8f;
     private Vector2 targetPosition;
+    private String name;
     private float originDistance;
     private float moveSpeed = 30f;
-    private boolean isMoving;
     private float rotation;
     private float rotationSpeed = 720f;
+    private boolean isGrounded;
+    private boolean isMoving;
     private boolean isRotating ;
     private boolean isOnOtherChess;
-
-    public Chess(String name, Vector2 position) {
-        this.name = name;
-        this.texture = new Texture("Chess_Assets/w_Rook.png");
-        this.sprite = new Sprite(texture);
-        sprite.setSize(1,1);
-        sprite.setOriginCenter();
-        isGrounded = false;
-        this.velocity = new Vector2(0, 0);
-        this.position = position;
-        sprite.setPosition(this.position.x, this.position.y);
-        this.bounds = new Rectangle(position.x, position.y, 60, 60);
-        this.isMoving = false;
-        this.targetPosition = new Vector2();
-        this.isRotating = false;
-        this.rotation = 0f;
-        LOGGER.info("Chess piece created: " + name + " at tilePosition: " + position);
-    }
 
     public Chess(String name, Vector2 position, String texturePath) {
         this.name = name; // = type
         this.texture    = new Texture(texturePath);
         this.sprite     = new Sprite(texture);
-        this.isGrounded     = false;
         this.position = position;
         this.velocity       = new Vector2(0, 0);
         this.targetPosition = new Vector2();
-        this.bounds = new Rectangle(position.x, position.y, 60, 60);
+        this.isGrounded     = false;
         this.isMoving       = false;
         this.isRotating     = false;
         this.isOnOtherChess = false;
@@ -83,7 +63,6 @@ public class Chess {
 
         sprite.setRotation(rotation);
         sprite.setPosition(position.x, position.y);
-        updateBounds();
     }
 
     public void rotationProcess(float delta) {
@@ -164,20 +143,10 @@ public class Chess {
         }
     }
 
-    public void updateBounds() {
-        bounds.setPosition(position);
-    }
-
     public Rectangle getTileBounds() {
         float tileX = position.x;
         float tileY = position.y;
         return new Rectangle(tileX, tileY, 1, 1);
-    }
-
-    public void setPosition(float x, float y) {
-        this.position = new Vector2(x, y);
-        sprite.setPosition(x, y);
-        updateBounds();
     }
 
     public Boolean IsRotating()     {return isRotating;}

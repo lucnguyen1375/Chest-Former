@@ -3,29 +3,19 @@ package com.ChessFormer.screen;
 import com.ChessFormer.ChessFormer;
 import com.ChessFormer.FileLogger;
 import com.ChessFormer.controller.MapController;
-import com.ChessFormer.model.chess.Chess;
-import com.ChessFormer.model.chess.Dot;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputAdapter;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.maps.MapLayer;
-import com.badlogic.gdx.maps.MapObject;
-import com.badlogic.gdx.maps.objects.PolygonMapObject;
-import com.badlogic.gdx.maps.tiled.TiledMap;
-import com.badlogic.gdx.maps.tiled.TmxMapLoader;
 import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
-import com.badlogic.gdx.math.Polygon;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.math.Vector3;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import static com.ChessFormer.Game_Utilz.TILE_SIZE;
 import static com.ChessFormer.Game_Utilz.UNIT_SCALE;
 import static com.ChessFormer.Game_Utilz.MAP_LEVEL_MAX;
+import static com.ChessFormer.Game_Utilz.VIEWPORT_WIDTH;
+import static com.ChessFormer.Game_Utilz.VIEWPORT_HEIGHT;
 
 
 public class GameScreenDemo extends InputAdapter implements Screen {
@@ -34,12 +24,9 @@ public class GameScreenDemo extends InputAdapter implements Screen {
 
     private SpriteBatch batch;
     private OrthographicCamera camera;
-    private TiledMap map;
     private OrthogonalTiledMapRenderer mapRenderer;
     private Vector2 lastClickedPosition;
 
-    private int WINDOW_WIDTH;
-    private int WINDOW_HEIGHT;
 
     MapController mapController;
 
@@ -62,7 +49,7 @@ public class GameScreenDemo extends InputAdapter implements Screen {
         Gdx.input.setInputProcessor(this);
 
         mapController.show();
-        camera.setToOrtho(false, 20, 12);
+        camera.setToOrtho(false, VIEWPORT_WIDTH, VIEWPORT_HEIGHT);
     }
 
     @Override
@@ -71,7 +58,7 @@ public class GameScreenDemo extends InputAdapter implements Screen {
         Gdx.gl.glClear(Gdx.gl.GL_COLOR_BUFFER_BIT);
 
         if (mapController.ifChangeMap())
-            changeMap("Map_Assets/Map_Level_2.tmx");
+            changeMap();
 
         // Cập nhật camera
         camera.update();
@@ -90,7 +77,6 @@ public class GameScreenDemo extends InputAdapter implements Screen {
         Vector3 worldCoordinates = camera.unproject(new Vector3(screenX, screenY, 0));
         lastClickedPosition.set(worldCoordinates.x, worldCoordinates.y);
 
-        System.out.println("CLicked");
         mapController.touchDown(worldCoordinates.x, worldCoordinates.y);
         return true;
     }
@@ -100,21 +86,13 @@ public class GameScreenDemo extends InputAdapter implements Screen {
         LOGGER.info("Window resized to: " + i + "x" + i1);
     }
 
-    public void changeMap(String mapPath) {
+    public void changeMap() {
         batch = new SpriteBatch();
-        camera = new OrthographicCamera();
         int nextMapLevel = mapController.getMapLevel() + 1;
         if (nextMapLevel > MAP_LEVEL_MAX) return;
         mapController = new MapController(nextMapLevel);
         mapRenderer = new OrthogonalTiledMapRenderer(mapController.getMap(), UNIT_SCALE);
-        // Khởi tạo lastClickedPosition
-        lastClickedPosition = new Vector2();
-
-        // Đăng ký InputProcessor
-        Gdx.input.setInputProcessor(this);
-
         mapController.show();
-        camera.setToOrtho(false, Gdx.graphics.getWidth() / TILE_SIZE, Gdx.graphics.getHeight() / TILE_SIZE);
     }
 
     @Override public void pause() {}
