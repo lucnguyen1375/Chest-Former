@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="9">
  <tileset firstgid="1" name="DemoMap" tilewidth="32" tileheight="32" tilecount="576" columns="32">
   <image source="DemoMap.png" width="1044" height="586"/>
  </tileset>
@@ -9,6 +9,41 @@
  <tileset firstgid="578" name="RoundedBlock_TileSet" tilewidth="32" tileheight="32" tilecount="3072" columns="64">
   <image source="RoundedBlocks/RoundedBlock_TileSet.png" width="2048" height="1536"/>
  </tileset>
+ <tileset firstgid="3650" name="w_Rook_32x32" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="../Chess_Assets/w_Rook_32x32.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="3651" name="w_King_32x32" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="../Chess_Assets/w_King_32x32.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="3652" name="w_Queen" tilewidth="32" tileheight="32" tilecount="16" columns="4">
+  <image source="../Chess_Assets/w_Queen.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="3668" name="w_Pawn" tilewidth="32" tileheight="32" tilecount="16" columns="4">
+  <image source="../Chess_Assets/w_Pawn.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="3684" name="w_Knight_32x32" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="../Chess_Assets/w_Knight_32x32.png" width="32" height="32"/>
+ </tileset>
+ <objectgroup id="3" name="PlayerChess">
+  <object id="2" name="Rook" x="544" y="160">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="4" name="King" x="480" y="160">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="5" name="Queen" x="416" y="160">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="6" name="Pawn" x="192" y="160">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="7" name="Knight" x="128" y="160">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="8" name="Pawn" x="64" y="160">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+ </objectgroup>
  <layer id="1" name="Tile Layer 1" width="20" height="12">
   <data encoding="csv">
 70,233,70,233,70,233,70,233,70,233,70,233,70,233,70,233,14,233,14,233,
@@ -16,8 +51,8 @@
 70,233,70,233,70,233,70,233,70,233,70,233,70,233,70,233,14,233,14,233,
 233,70,233,70,233,70,233,70,233,70,233,70,233,70,233,14,233,14,233,14,
 70,233,70,75,169,75,169,233,70,233,70,233,70,75,169,75,169,233,14,233,
-233,70,233,70,233,70,233,70,233,70,233,70,233,70,233,14,233,14,233,14,
-70,233,577,577,577,577,70,233,70,233,70,233,70,233,577,577,577,577,14,233,
+233,70,68,70,68,70,68,70,233,70,233,70,233,4,233,4,233,4,233,14,
+70,233,577,577,577,577,577,233,70,233,70,233,70,577,577,577,577,577,14,233,
 233,70,233,70,233,70,233,70,233,70,233,70,233,70,233,14,233,14,233,14,
 70,233,70,233,70,233,70,233,70,233,70,233,70,233,70,233,14,233,14,233,
 233,70,233,70,233,70,233,70,233,70,233,70,233,70,233,14,233,14,233,14,
