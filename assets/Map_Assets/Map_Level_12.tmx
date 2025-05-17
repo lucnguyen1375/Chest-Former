@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="25">
+ <tileset firstgid="1" name="TestMap" tilewidth="32" tileheight="32" tilecount="576" columns="32">
+  <image source="DemoMap.png" width="1044" height="586"/>
+ </tileset>
+ <tileset firstgid="577" name="resized_image_32x32" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="resized_image_32x32.png" width="32" height="32"/>
+ </tileset>
+ <objectgroup id="2" name="Block">
+  <object id="1" x="320" y="0">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="2" x="448" y="0">
+   <polygon points="0,0 32,0 32,64 0,64"/>
+  </object>
+  <object id="3" x="320" y="64">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="4" x="384" y="96">
+   <polygon points="0,0 192,0 192,32 0,32"/>
+  </object>
+  <object id="5" x="160" y="96">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="6" x="224" y="96">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="7" x="64" y="96">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="8" x="96" y="160">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="9" x="128" y="224">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="10" x="96" y="288">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="11" x="0" y="320">
+   <polygon points="0,0 640,0 640,64 0,64"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="PlayerChess">
+  <object id="13" name="Knight" x="192" y="288">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="14" name="Pawn" x="288" y="288">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="15" name="Pawn" x="416" y="288">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="16" name="Rook" x="512" y="288">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="TargetChess">
+  <object id="12" name="targetChess" x="512" y="64">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="GreenBar">
+  <object id="17" name="green_bar" x="288" y="128">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="18" name="green_bar" x="288" y="160">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="19" name="green_bar" x="288" y="192">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="20" name="green_bar" x="288" y="224">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="21" name="green_bar" x="288" y="256">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="23" name="green_bar" x="416" y="256">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+  <object id="24" name="green_bar" x="416" y="160">
+   <polygon points="0,0 32,0 32,32 0,32"/>
+  </object>
+ </objectgroup>
+ <layer id="1" name="Tile Layer 1" width="20" height="12">
+  <data encoding="csv">
+235,250,235,250,235,250,235,250,235,250,577,250,235,250,577,250,235,250,235,250,
+250,235,250,235,250,235,250,235,250,235,250,235,250,235,577,235,250,235,250,235,
+235,250,235,250,235,250,235,250,235,250,577,250,235,250,235,250,235,250,235,250,
+250,235,577,235,250,577,250,577,250,235,250,235,577,577,577,577,577,577,250,235,
+235,250,235,250,235,250,235,250,235,250,235,250,235,250,235,250,235,250,235,250,
+250,235,250,577,250,235,250,235,250,235,250,235,250,235,250,235,250,235,250,235,
+235,250,235,250,235,250,235,250,235,250,235,250,235,250,235,250,235,250,235,250,
+250,235,250,235,577,235,250,235,250,235,250,235,250,235,250,235,250,235,250,235,
+235,250,235,250,235,250,235,250,235,250,235,250,235,250,235,250,235,250,235,250,
+250,235,250,577,250,235,250,235,250,235,250,235,250,235,250,235,250,235,250,235,
+577,577,577,577,577,577,577,577,577,577,577,577,577,577,577,577,577,577,577,577,
+577,577,577,577,577,577,577,577,577,577,577,577,577,577,577,577,577,577,577,577
+</data>
+ </layer>
+</map>
