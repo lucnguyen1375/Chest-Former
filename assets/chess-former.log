@@ -1,15 +1,32 @@
-[05/05/2025 23:44:34] === Log started ===
-[05/05/2025 23:44:35] [INFO] class com.badlogic.gdx.utils.Logger: Resized MainScreen to: 1200x720
-[05/05/2025 23:44:35] [INFO] class com.badlogic.gdx.utils.Logger: Game started - Loaded LoginScreen
-[05/05/2025 23:44:35] [INFO] class com.badlogic.gdx.utils.Logger: Resized MainScreen to: 1200x720
-[05/05/2025 23:44:36] [INFO] class com.badlogic.gdx.utils.Logger: GameScreen initialized with window size: 1200x720
-[05/05/2025 23:44:36] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded: com.badlogic.gdx.maps.tiled.TiledMap@4ddced80
-[05/05/2025 23:44:36] [INFO] class com.badlogic.gdx.utils.Logger: Block rectangles loaded: 3
-[05/05/2025 23:44:36] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Rook at tilePosition: (5.0,8.0)
-[05/05/2025 23:44:36] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: TargetChess at tilePosition: (11.0,5.0)
-[05/05/2025 23:44:36] [INFO] class com.badlogic.gdx.utils.Logger: Window resized to: 1200x720
-[05/05/2025 23:44:36] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@35047d03
-[05/05/2025 23:44:36] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@5ae50ce6
-[05/05/2025 23:44:38] [INFO] class com.badlogic.gdx.utils.Logger: Window resized to: 1920x1057
-[05/05/2025 23:44:41] [INFO] class com.badlogic.gdx.utils.Logger: Window resized to: 1200x720
-[05/05/2025 23:44:42] [INFO] class com.badlogic.gdx.utils.Logger: Game disposed - Unloaded Game Screen
+[17/05/2025 11:14:31] === Log started ===
+[17/05/2025 11:14:31] [INFO] class com.badlogic.gdx.utils.Logger: Resized MainScreen to: 1200x720
+[17/05/2025 11:14:31] [INFO] class com.badlogic.gdx.utils.Logger: Game started - Loaded LoginScreen
+[17/05/2025 11:14:31] [INFO] class com.badlogic.gdx.utils.Logger: Resized MainScreen to: 1200x720
+[17/05/2025 11:14:32] [INFO] class com.badlogic.gdx.utils.Logger: GameScreen initialized with window size: 1200x720
+[17/05/2025 11:14:32] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded successfully: Map_Assets/Map_Level_1.tmx
+[17/05/2025 11:14:32] [INFO] class com.badlogic.gdx.utils.Logger: MapController initialized with map: Map_Assets/Map_Level_1.tmx
+[17/05/2025 11:14:32] [INFO] class com.badlogic.gdx.utils.Logger: Block polygon loaded: 9
+[17/05/2025 11:14:32] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: King at tilePosition: (3.0,4.0)
+[17/05/2025 11:14:32] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Knight at tilePosition: (7.0,7.0)
+[17/05/2025 11:14:32] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: TargetChess at tilePosition: (13.0,5.0)
+[17/05/2025 11:14:32] [INFO] class com.badlogic.gdx.utils.Logger: Window resized to: 1200x720
+[17/05/2025 11:14:32] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@6f96c77
+[17/05/2025 11:14:32] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@be64738
+[17/05/2025 11:14:33] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@3ba9ad43
+[17/05/2025 11:14:33] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Knight at position: (7.0,5.0)
+[17/05/2025 11:14:33] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [7.0,5.0,1.0,1.0]
+[17/05/2025 11:14:35] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@be64738
+[17/05/2025 11:14:37] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded successfully: Map_Assets/Map_Level_2.tmx
+[17/05/2025 11:14:37] [INFO] class com.badlogic.gdx.utils.Logger: MapController initialized with map: Map_Assets/Map_Level_2.tmx
+[17/05/2025 11:14:37] [INFO] class com.badlogic.gdx.utils.Logger: Block polygon loaded: 3
+[17/05/2025 11:14:37] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Rook at tilePosition: (5.0,8.0)
+[17/05/2025 11:14:37] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: TargetChess at tilePosition: (11.0,5.0)
+[17/05/2025 11:14:37] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@49d904ec
+[17/05/2025 11:14:37] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@48e4374
+[17/05/2025 11:14:39] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Rook at position: (5.0,8.0)
+[17/05/2025 11:14:39] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [5.0,8.0,1.0,1.0]
+[17/05/2025 11:14:42] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@48e4374
+[17/05/2025 11:14:42] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Rook at position: (10.0,5.0)
+[17/05/2025 11:14:42] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [10.0,5.0,1.0,1.0]
+[17/05/2025 11:14:43] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@48e4374
+[17/05/2025 11:14:48] [INFO] class com.badlogic.gdx.utils.Logger: Game disposed - Unloaded Game Screen
