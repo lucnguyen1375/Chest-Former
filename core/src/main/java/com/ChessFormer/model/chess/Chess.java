@@ -8,6 +8,8 @@ import com.badlogic.gdx.math.Polygon;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.List;
 
 import static com.ChessFormer.Game_Utilz.UNIT_SCALE;
@@ -49,19 +51,28 @@ public class Chess {
         LOGGER.info("Chess piece created: " + name + " at tilePosition: " + position);
     }
 
-    public void update(float delta, List<Polygon> platforms, List<Chess> chessList) {
+    public void updateTargetChess(float delta) {
+        if (isRotating) {
+            velocity.set(0, -3f);
+            rotationProcess(delta);
+        }
+        sprite.setRotation(rotation);
+        sprite.setPosition(position.x, position.y);
+    }
+
+    public void update(float delta, List<Polygon> platforms, List<Chess> chessList, List<Sprite> barSprite) {
         if (isMoving) {
             moveProcess(delta);
         }
         else if (isGrounded == false && isOnOtherChess == false) {
-            dropProcess(delta, platforms, chessList);
+            dropProcess(delta, platforms, chessList, barSprite);
         }
-        else if (isRotating) {
-            velocity.set(0, -3f);
-            rotationProcess(delta);
-        }
-
-        sprite.setRotation(rotation);
+//        else if (isRotating) {
+//            velocity.set(0, -3f);
+//            rotationProcess(delta);
+//        }
+//
+//        sprite.setRotation(rotation);
         sprite.setPosition(position.x, position.y);
     }
 
@@ -71,7 +82,7 @@ public class Chess {
         rotation %= 360; // Giới hạn góc quay từ 0 đến 360 độ
     }
 
-    public boolean checkIfGrounded(List<Polygon> platforms) {
+    public boolean checkIfGrounded(List<Polygon> platforms, List<Sprite> barSprites) {
         float tmpX = position.x / UNIT_SCALE;
         float tmpY = position.y / UNIT_SCALE - 8f; // Giảm một chút để kiểm tra va chạm
 
@@ -80,6 +91,16 @@ public class Chess {
             Rectangle platformBounds = platform.getBoundingRectangle();
             if (tmpBounds.overlaps(platformBounds)) {
                 LOGGER.info("Chess piece is grounded on platform: " + platform);
+                return true;
+            }
+        }
+
+        for(Sprite barSprite : barSprites)
+        {
+            Rectangle bounds = barSprite.getBoundingRectangle();
+            Rectangle barSpriteBounds = new Rectangle(bounds.x / UNIT_SCALE, bounds.y / UNIT_SCALE, 32, 32);
+            if (tmpBounds.overlaps(barSpriteBounds)) {
+                LOGGER.info("Chess piece is grounded on platform: " + barSprite);
                 return true;
             }
         }
@@ -103,8 +124,8 @@ public class Chess {
         return false;
     }
 
-    public void dropProcess(float delta, List<Polygon> platforms, List<Chess> chessList) {
-        if (checkIfGrounded(platforms) && !checkIfOnOtherChess(chessList)) {
+    public void dropProcess(float delta, List<Polygon> platforms, List<Chess> chessList, List<Sprite> barSprites) {
+        if (checkIfGrounded(platforms, barSprites) || checkIfOnOtherChess(chessList)) {
             position.y = (int) position.y;
             isGrounded = true;
             velocity.y = 0;

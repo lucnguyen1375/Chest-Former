@@ -90,17 +90,11 @@ public class MainScreen implements Screen {
         playButton.getImage().setScaling(Scaling.fit);  // hoặc Scaling.stretch
 
 
-
-
-
-
-
-
         playButton.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 // Sau khi đăng nhập đúng, chuyển sang màn chính
-                game.setScreen(new GameScreenDemo(game));
+                game.setScreen(new GameScreen(game));
             }
         });
         playButton.addListener(new ActorGestureListener() {

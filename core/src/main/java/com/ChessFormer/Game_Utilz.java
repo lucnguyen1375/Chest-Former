@@ -13,7 +13,7 @@ public class Game_Utilz {
     public static final int VIEWPORT_HEIGHT = 12;
 
     // Số lượng Map tối đa
-    public static final int MAP_LEVEL_MAX = 2;
+    public static final int MAP_LEVEL_MAX = 15;
 
     public static final float GRAVITY = 9.8f;
 

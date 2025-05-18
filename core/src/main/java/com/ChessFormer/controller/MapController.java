@@ -2,7 +2,10 @@ package com.ChessFormer.controller;
 
 import com.ChessFormer.FileLogger;
 import com.ChessFormer.model.chess.Chess;
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
+import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.maps.MapLayer;
 import com.badlogic.gdx.maps.MapObject;
@@ -11,6 +14,7 @@ import com.badlogic.gdx.maps.tiled.TiledMap;
 import com.badlogic.gdx.maps.tiled.TmxMapLoader;
 import com.badlogic.gdx.math.Polygon;
 import com.badlogic.gdx.math.Vector2;
+import com.badlogic.gdx.utils.Array;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,6 +31,8 @@ public class MapController {
     private FileLogger LOGGER;
     private int mapLevel;
 
+    List<Sprite> greenBarSprites = new ArrayList<>();
+
     public MapController(int mapLevel) {
         LOGGER = new FileLogger(MapController.class.getName());
         this.mapLevel = mapLevel;
@@ -41,14 +47,17 @@ public class MapController {
     public void show() {
         loadBlockPolys();
         loadChess();
+        loadGreenBar();
+        for(Sprite sprite : greenBarSprites)
+            System.out.println(sprite.getX() + " " + sprite.getY());
     }
 
     public void update(float delta) {
         checkIfHitTargetChess();
         for (Chess chess : chessList) {
-            chess.update(delta, blockPolys, chessList);
+            chess.update(delta, blockPolys, chessList, greenBarSprites);
         }
-        targetChess.update(delta, blockPolys, chessList);
+        targetChess.updateTargetChess(delta);
     }
 
     public TiledMap getMap() {
@@ -109,12 +118,39 @@ public class MapController {
             }
         }
     }
-    
+
+    public void loadGreenBar() {
+        MapLayer greenBar = map.getLayers().get("GreenBar");
+
+        if (greenBar != null) {
+            for (MapObject obj : greenBar.getObjects()) {
+                float x = obj.getProperties().get("x", Float.class);
+                float y = obj.getProperties().get("y", Float.class) - 32;
+                String name = obj.getName();
+
+                String texturePath = "Map_Assets/" + name + "_32x32_top.png";
+
+                Texture texture = new Texture(Gdx.files.internal(texturePath));
+                texture.setFilter(Texture.TextureFilter.Linear, Texture.TextureFilter.Linear);
+
+                Sprite sprite = new Sprite(texture);
+                sprite.setPosition(x * UNIT_SCALE, y * UNIT_SCALE);
+                sprite.setSize(32 * UNIT_SCALE, 32 * UNIT_SCALE);
+
+                greenBarSprites.add(sprite);
+            }
+        }
+    }
+
     public void draw(SpriteBatch batch) {
         for (Chess chess : chessList) {
             chess.draw(batch);
         }
         targetChess.draw(batch);
+
+        for (Sprite sprite : greenBarSprites) {
+            sprite.draw(batch);
+        }
     }
 
     public void touchDown(float x, float y) {
