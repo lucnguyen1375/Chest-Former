@@ -74,11 +74,6 @@ public class MainScreen implements Screen {
         Image fontText = new Image(fontDrawable);
         fontText.setSize(128, 128);
 
-
-
-
-
-
         Texture buttonTexture = new Texture(Gdx.files.internal("Map_Assets/playbutton.png"));
         TextureRegionDrawable buttonDrawable = new TextureRegionDrawable(new TextureRegion(buttonTexture));
 
