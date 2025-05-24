@@ -5,6 +5,7 @@ import com.ChessFormer.FileLogger;
 import com.ChessFormer.controller.MapController;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputAdapter;
+import com.badlogic.gdx.Preferences;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -29,9 +30,11 @@ public class GameScreen extends InputAdapter implements Screen {
 
 
     MapController mapController;
+    int level;
 
-    public GameScreen(ChessFormer game) {
+    public GameScreen(ChessFormer game, int level) {
         this.game = game; // kết nối tới Game
+        this.level = level;
         LOGGER = new FileLogger(GameScreen.class.getName());
         LOGGER.info("GameScreen initialized with window size: " + Gdx.graphics.getWidth() + "x" + Gdx.graphics.getHeight());
     }
@@ -40,7 +43,7 @@ public class GameScreen extends InputAdapter implements Screen {
     public void show() {
         batch = new SpriteBatch();
         camera = new OrthographicCamera();
-        mapController = new MapController(1);
+        mapController = new MapController(level);
         mapRenderer = new OrthogonalTiledMapRenderer(mapController.getMap(), UNIT_SCALE);
         // Khởi tạo lastClickedPosition
         lastClickedPosition = new Vector2();
@@ -90,6 +93,9 @@ public class GameScreen extends InputAdapter implements Screen {
         batch = new SpriteBatch();
         int nextMapLevel = mapController.getMapLevel() + 1;
         if (nextMapLevel > MAP_LEVEL_MAX) return;
+        Preferences prefs = Gdx.app.getPreferences("GameProgress");
+        prefs.putBoolean("level_" + nextMapLevel + "_unlocked", true);
+        prefs.flush();
         mapController = new MapController(nextMapLevel);
         mapRenderer = new OrthogonalTiledMapRenderer(mapController.getMap(), UNIT_SCALE);
         mapController.show();

@@ -1,24 +1,13 @@
-[17/05/2025 20:26:06] === Log started ===
-[17/05/2025 20:26:06] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded: com.badlogic.gdx.maps.tiled.TiledMap@55a1c291
-[17/05/2025 20:26:06] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Rook at tilePosition: (17.0,6.0)
-[17/05/2025 20:26:06] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: King at tilePosition: (15.0,6.0)
-[17/05/2025 20:26:06] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Queen at tilePosition: (13.0,6.0)
-[17/05/2025 20:26:06] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Pawn at tilePosition: (6.0,6.0)
-[17/05/2025 20:26:06] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Knight at tilePosition: (4.0,6.0)
-[17/05/2025 20:26:06] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Pawn at tilePosition: (2.0,6.0)
-[17/05/2025 20:26:06] [INFO] class com.badlogic.gdx.utils.Logger: Resized MainScreen to: 1200x720
-[17/05/2025 20:26:06] [INFO] class com.badlogic.gdx.utils.Logger: Game started - Loaded LoginScreen
-[17/05/2025 20:26:06] [INFO] class com.badlogic.gdx.utils.Logger: Resized MainScreen to: 1200x720
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: GameScreen initialized with window size: 1200x720
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded: com.badlogic.gdx.maps.tiled.TiledMap@60611244
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Block rectangles loaded: 12
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Knight at tilePosition: (17.0,6.0)
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Pawn at tilePosition: (4.0,7.0)
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: King at tilePosition: (4.0,2.0)
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: TargetChess at tilePosition: (10.0,8.0)
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Window resized to: 1200x720
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@a4102b8
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@11dc3715
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@69930714
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@7a52f2a2
-[17/05/2025 20:26:10] [INFO] class com.badlogic.gdx.utils.Logger: Game disposed - Unloaded Game Screen
+[24/05/2025 20:39:26] === Log started ===
+[24/05/2025 20:39:26] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded: com.badlogic.gdx.maps.tiled.TiledMap@55a1c291
+[24/05/2025 20:39:26] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Rook at tilePosition: (17.0,6.0)
+[24/05/2025 20:39:26] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: King at tilePosition: (15.0,6.0)
+[24/05/2025 20:39:26] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Queen at tilePosition: (13.0,6.0)
+[24/05/2025 20:39:26] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Pawn at tilePosition: (6.0,6.0)
+[24/05/2025 20:39:26] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Knight at tilePosition: (4.0,6.0)
+[24/05/2025 20:39:26] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Pawn at tilePosition: (2.0,6.0)
+[24/05/2025 20:39:26] [INFO] class com.badlogic.gdx.utils.Logger: Resized MainScreen to: 1200x720
+[24/05/2025 20:39:26] [INFO] class com.badlogic.gdx.utils.Logger: Game started - Loaded LoginScreen
+[24/05/2025 20:39:26] [INFO] class com.badlogic.gdx.utils.Logger: Resized MainScreen to: 1200x720
+[24/05/2025 20:39:26] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded: com.badlogic.gdx.maps.tiled.TiledMap@f8c1ddd
+[24/05/2025 20:43:40] [INFO] class com.badlogic.gdx.utils.Logger: Game disposed - Unloaded Game Screen

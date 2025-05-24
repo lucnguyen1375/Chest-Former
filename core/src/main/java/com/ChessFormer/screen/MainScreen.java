@@ -94,7 +94,7 @@ public class MainScreen implements Screen {
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 // Sau khi đăng nhập đúng, chuyển sang màn chính
-                game.setScreen(new GameScreen(game));
+                game.setScreen(new MenuScreen(game));
             }
         });
         playButton.addListener(new ActorGestureListener() {
