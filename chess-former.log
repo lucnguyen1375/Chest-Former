@@ -1,13 +1,1047 @@
-[25/05/2025 21:15:20] === Log started ===
-[25/05/2025 21:15:20] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded: com.badlogic.gdx.maps.tiled.TiledMap@62e136d3
-[25/05/2025 21:15:20] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Rook at tilePosition: (17.0,6.0)
-[25/05/2025 21:15:20] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: King at tilePosition: (15.0,6.0)
-[25/05/2025 21:15:20] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Queen at tilePosition: (13.0,6.0)
-[25/05/2025 21:15:20] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Pawn at tilePosition: (6.0,6.0)
-[25/05/2025 21:15:20] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Knight at tilePosition: (4.0,6.0)
-[25/05/2025 21:15:20] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Pawn at tilePosition: (2.0,6.0)
-[25/05/2025 21:15:20] [INFO] class com.badlogic.gdx.utils.Logger: Resized MainScreen to: 1200x720
-[25/05/2025 21:15:20] [INFO] class com.badlogic.gdx.utils.Logger: Game started - Loaded LoginScreen
-[25/05/2025 21:15:20] [INFO] class com.badlogic.gdx.utils.Logger: Resized MainScreen to: 1200x720
-[25/05/2025 21:15:21] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded: com.badlogic.gdx.maps.tiled.TiledMap@21507a04
-[25/05/2025 21:15:23] [INFO] class com.badlogic.gdx.utils.Logger: Game disposed - Unloaded Game Screen
+[25/05/2025 22:01:53] === Log started ===
+[25/05/2025 22:01:53] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded: com.badlogic.gdx.maps.tiled.TiledMap@62e136d3
+[25/05/2025 22:01:53] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Rook at tilePosition: (17.0,6.0)
+[25/05/2025 22:01:53] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: King at tilePosition: (15.0,6.0)
+[25/05/2025 22:01:53] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Queen at tilePosition: (13.0,6.0)
+[25/05/2025 22:01:53] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Pawn at tilePosition: (6.0,6.0)
+[25/05/2025 22:01:53] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Knight at tilePosition: (4.0,6.0)
+[25/05/2025 22:01:53] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Pawn at tilePosition: (2.0,6.0)
+[25/05/2025 22:01:53] [INFO] class com.badlogic.gdx.utils.Logger: Resized MainScreen to: 1200x720
+[25/05/2025 22:01:53] [INFO] class com.badlogic.gdx.utils.Logger: Game started - Loaded LoginScreen
+[25/05/2025 22:01:53] [INFO] class com.badlogic.gdx.utils.Logger: Resized MainScreen to: 1200x720
+[25/05/2025 22:01:55] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded: com.badlogic.gdx.maps.tiled.TiledMap@21507a04
+[25/05/2025 22:01:56] [INFO] class com.badlogic.gdx.utils.Logger: GameScreen initialized with window size: 1200x720
+[25/05/2025 22:01:56] [INFO] class com.badlogic.gdx.utils.Logger: GameScreen show() called
+[25/05/2025 22:01:56] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded successfully: Map_Assets/Map_Level_1.tmx
+[25/05/2025 22:01:56] [INFO] class com.badlogic.gdx.utils.Logger: MapController initialized with map: Map_Assets/Map_Level_1.tmx
+[25/05/2025 22:01:56] [INFO] class com.badlogic.gdx.utils.Logger: Block polygon loaded: 9
+[25/05/2025 22:01:56] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: King at tilePosition: (4.0,6.0)
+[25/05/2025 22:01:56] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: TargetChess at tilePosition: (14.0,7.0)
+[25/05/2025 22:01:56] [INFO] class com.badlogic.gdx.utils.Logger: Resized MainScreen to: 1200x720
+[25/05/2025 22:01:58] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (4.0,6.0)
+[25/05/2025 22:01:58] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [4.0,6.0,1.0,1.0]
+[25/05/2025 22:01:58] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 6
+[25/05/2025 22:01:58] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 6
+[25/05/2025 22:01:58] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 7
+[25/05/2025 22:01:58] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 5
+[25/05/2025 22:01:58] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 7
+[25/05/2025 22:01:58] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 5
+[25/05/2025 22:01:58] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 5
+[25/05/2025 22:01:58] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 7
+[25/05/2025 22:01:59] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (5.0,6.0)
+[25/05/2025 22:01:59] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [5.0,6.0,1.0,1.0]
+[25/05/2025 22:01:59] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 6
+[25/05/2025 22:01:59] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 6
+[25/05/2025 22:01:59] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 7
+[25/05/2025 22:01:59] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 5
+[25/05/2025 22:01:59] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 7
+[25/05/2025 22:01:59] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 5
+[25/05/2025 22:01:59] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 5
+[25/05/2025 22:01:59] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 7
+[25/05/2025 22:02:00] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (6.0,6.0)
+[25/05/2025 22:02:00] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [6.0,6.0,1.0,1.0]
+[25/05/2025 22:02:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 6
+[25/05/2025 22:02:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 6
+[25/05/2025 22:02:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 7
+[25/05/2025 22:02:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 5
+[25/05/2025 22:02:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 7
+[25/05/2025 22:02:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 5
+[25/05/2025 22:02:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 5
+[25/05/2025 22:02:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 7
+[25/05/2025 22:02:02] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (7.0,7.0)
+[25/05/2025 22:02:02] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [7.0,7.0,1.0,1.0]
+[25/05/2025 22:02:02] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 7
+[25/05/2025 22:02:02] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 7
+[25/05/2025 22:02:02] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 8
+[25/05/2025 22:02:02] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 6
+[25/05/2025 22:02:02] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 8
+[25/05/2025 22:02:02] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 6
+[25/05/2025 22:02:02] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 6
+[25/05/2025 22:02:02] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 8
+[25/05/2025 22:02:03] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (8.0,6.0)
+[25/05/2025 22:02:03] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [8.0,6.0,1.0,1.0]
+[25/05/2025 22:02:03] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 6
+[25/05/2025 22:02:03] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 6
+[25/05/2025 22:02:03] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 7
+[25/05/2025 22:02:03] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 5
+[25/05/2025 22:02:03] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 7
+[25/05/2025 22:02:03] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 5
+[25/05/2025 22:02:03] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 5
+[25/05/2025 22:02:03] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 7
+[25/05/2025 22:02:04] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (9.0,6.0)
+[25/05/2025 22:02:04] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [9.0,6.0,1.0,1.0]
+[25/05/2025 22:02:04] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 6
+[25/05/2025 22:02:04] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 6
+[25/05/2025 22:02:04] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 7
+[25/05/2025 22:02:04] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 5
+[25/05/2025 22:02:04] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 7
+[25/05/2025 22:02:04] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 5
+[25/05/2025 22:02:04] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 5
+[25/05/2025 22:02:04] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 7
+[25/05/2025 22:02:05] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (10.0,5.0)
+[25/05/2025 22:02:05] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [10.0,5.0,1.0,1.0]
+[25/05/2025 22:02:05] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 5
+[25/05/2025 22:02:05] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 5
+[25/05/2025 22:02:05] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 6
+[25/05/2025 22:02:05] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 4
+[25/05/2025 22:02:05] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 6
+[25/05/2025 22:02:05] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 4
+[25/05/2025 22:02:05] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 4
+[25/05/2025 22:02:05] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 6
+[25/05/2025 22:02:06] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (11.0,6.0)
+[25/05/2025 22:02:06] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [11.0,6.0,1.0,1.0]
+[25/05/2025 22:02:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 6
+[25/05/2025 22:02:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 6
+[25/05/2025 22:02:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 7
+[25/05/2025 22:02:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 5
+[25/05/2025 22:02:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 7
+[25/05/2025 22:02:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 5
+[25/05/2025 22:02:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 5
+[25/05/2025 22:02:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 7
+[25/05/2025 22:02:08] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (12.0,6.0)
+[25/05/2025 22:02:08] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [12.0,6.0,1.0,1.0]
+[25/05/2025 22:02:08] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 6
+[25/05/2025 22:02:08] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 6
+[25/05/2025 22:02:08] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 7
+[25/05/2025 22:02:08] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 5
+[25/05/2025 22:02:08] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 7
+[25/05/2025 22:02:08] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 5
+[25/05/2025 22:02:08] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 5
+[25/05/2025 22:02:08] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 7
+[25/05/2025 22:02:09] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (13.0,6.0)
+[25/05/2025 22:02:09] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [13.0,6.0,1.0,1.0]
+[25/05/2025 22:02:09] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 6
+[25/05/2025 22:02:09] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 6
+[25/05/2025 22:02:09] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 7
+[25/05/2025 22:02:09] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 5
+[25/05/2025 22:02:09] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 7
+[25/05/2025 22:02:09] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 5
+[25/05/2025 22:02:09] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 5
+[25/05/2025 22:02:09] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 7
+[25/05/2025 22:02:12] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded successfully: Map_Assets/Map_Level_2.tmx
+[25/05/2025 22:02:12] [INFO] class com.badlogic.gdx.utils.Logger: MapController initialized with map: Map_Assets/Map_Level_2.tmx
+[25/05/2025 22:02:12] [INFO] class com.badlogic.gdx.utils.Logger: Block polygon loaded: 15
+[25/05/2025 22:02:12] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Rook at tilePosition: (3.0,10.0)
+[25/05/2025 22:02:12] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: TargetChess at tilePosition: (11.0,2.0)
+[25/05/2025 22:02:15] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded: com.badlogic.gdx.maps.tiled.TiledMap@3901d134
+[25/05/2025 22:02:16] [INFO] class com.badlogic.gdx.utils.Logger: GameScreen initialized with window size: 1200x720
+[25/05/2025 22:02:16] [INFO] class com.badlogic.gdx.utils.Logger: GameScreen show() called
+[25/05/2025 22:02:16] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded successfully: Map_Assets/Map_Level_2.tmx
+[25/05/2025 22:02:16] [INFO] class com.badlogic.gdx.utils.Logger: MapController initialized with map: Map_Assets/Map_Level_2.tmx
+[25/05/2025 22:02:16] [INFO] class com.badlogic.gdx.utils.Logger: Block polygon loaded: 15
+[25/05/2025 22:02:16] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Rook at tilePosition: (3.0,10.0)
+[25/05/2025 22:02:16] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: TargetChess at tilePosition: (11.0,2.0)
+[25/05/2025 22:02:16] [INFO] class com.badlogic.gdx.utils.Logger: Resized MainScreen to: 1200x720
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Rook at position: (3.0,10.0)
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [3.0,10.0,1.0,1.0]
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 10
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 10
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 10
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 10
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 10
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 10
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 10
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 10
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 10
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 10
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 10
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 10
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 16, 10
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 17, 10
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 18, 10
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 19, 10
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 2, 10
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 1, 10
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 0, 10
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 11
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 3, 12
+[25/05/2025 22:02:17] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 9
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Rook at position: (14.0,7.0)
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [14.0,7.0,1.0,1.0]
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 7
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 16, 7
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 17, 7
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 18, 7
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 19, 7
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 7
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 7
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 7
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 7
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 7
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 7
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 7
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 7
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 7
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 7
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 7
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 2, 7
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 1, 7
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 0, 7
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 8
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 9
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 10
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 11
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 14, 12
+[25/05/2025 22:02:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 6
+[25/05/2025 22:02:22] [INFO] class com.badlogic.gdx.utils.Logger: GameScreen initialized with window size: 1200x720
+[25/05/2025 22:02:22] [INFO] class com.badlogic.gdx.utils.Logger: GameScreen show() called
+[25/05/2025 22:02:22] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded successfully: Map_Assets/Map_Level_2.tmx
+[25/05/2025 22:02:22] [INFO] class com.badlogic.gdx.utils.Logger: MapController initialized with map: Map_Assets/Map_Level_2.tmx
+[25/05/2025 22:02:22] [INFO] class com.badlogic.gdx.utils.Logger: Block polygon loaded: 15
+[25/05/2025 22:02:22] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Rook at tilePosition: (3.0,10.0)
+[25/05/2025 22:02:22] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: TargetChess at tilePosition: (11.0,2.0)
+[25/05/2025 22:02:22] [INFO] class com.badlogic.gdx.utils.Logger: Resized MainScreen to: 1200x720
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Rook at position: (3.0,10.0)
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [3.0,10.0,1.0,1.0]
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 10
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 10
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 10
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 10
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 10
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 10
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 10
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 10
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 10
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 10
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 10
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 10
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 16, 10
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 17, 10
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 18, 10
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 19, 10
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 2, 10
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 1, 10
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 0, 10
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 11
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 3, 12
+[25/05/2025 22:02:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 9
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Rook at position: (14.0,7.0)
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [14.0,7.0,1.0,1.0]
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 7
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 16, 7
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 17, 7
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 18, 7
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 19, 7
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 7
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 7
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 7
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 7
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 7
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 7
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 7
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 7
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 7
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 7
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 7
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 2, 7
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 1, 7
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 0, 7
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 8
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 9
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 10
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 11
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 14, 12
+[25/05/2025 22:02:25] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 6
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Rook at position: (4.0,4.0)
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [4.0,4.0,1.0,1.0]
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 4
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 4
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 4
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 4
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 4
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 4
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 4
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 4
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 4
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 4
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 4
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 16, 4
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 17, 4
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 18, 4
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 19, 4
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 4
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 2, 4
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 1, 4
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 0, 4
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 5
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 6
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 7
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 8
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 9
+[25/05/2025 22:02:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 3
+[25/05/2025 22:02:30] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded successfully: Map_Assets/Map_Level_3.tmx
+[25/05/2025 22:02:30] [INFO] class com.badlogic.gdx.utils.Logger: MapController initialized with map: Map_Assets/Map_Level_3.tmx
+[25/05/2025 22:02:30] [INFO] class com.badlogic.gdx.utils.Logger: Block polygon loaded: 15
+[25/05/2025 22:02:30] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Bishop at tilePosition: (7.0,3.0)
+[25/05/2025 22:02:31] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: TargetChess at tilePosition: (10.0,8.0)
+[25/05/2025 22:02:32] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (7.0,3.0)
+[25/05/2025 22:02:32] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [7.0,3.0,1.0,1.0]
+[25/05/2025 22:02:32] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 4
+[25/05/2025 22:02:32] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 5
+[25/05/2025 22:02:32] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 2
+[25/05/2025 22:02:32] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 2
+[25/05/2025 22:02:32] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 4
+[25/05/2025 22:02:32] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 5
+[25/05/2025 22:02:32] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 6
+[25/05/2025 22:02:32] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 7
+[25/05/2025 22:02:32] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 2, 8
+[25/05/2025 22:02:32] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 1, 9
+[25/05/2025 22:02:32] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 0, 10
+[25/05/2025 22:02:36] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (3.0,3.0)
+[25/05/2025 22:02:36] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [3.0,3.0,1.0,1.0]
+[25/05/2025 22:02:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 4
+[25/05/2025 22:02:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 5
+[25/05/2025 22:02:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 6
+[25/05/2025 22:02:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 7
+[25/05/2025 22:02:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 8
+[25/05/2025 22:02:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 9
+[25/05/2025 22:02:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 2, 2
+[25/05/2025 22:02:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 2
+[25/05/2025 22:02:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 2, 4
+[25/05/2025 22:02:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 1, 5
+[25/05/2025 22:02:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 0, 6
+[25/05/2025 22:02:36] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: -1, 7
+[25/05/2025 22:02:38] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (4.0,3.0)
+[25/05/2025 22:02:38] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [4.0,3.0,1.0,1.0]
+[25/05/2025 22:02:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 4
+[25/05/2025 22:02:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 5
+[25/05/2025 22:02:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 6
+[25/05/2025 22:02:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 7
+[25/05/2025 22:02:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 8
+[25/05/2025 22:02:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 2
+[25/05/2025 22:02:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 2
+[25/05/2025 22:02:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 4
+[25/05/2025 22:02:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 2, 5
+[25/05/2025 22:02:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 1, 6
+[25/05/2025 22:02:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 0, 7
+[25/05/2025 22:02:38] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: -1, 8
+[25/05/2025 22:02:40] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (8.0,7.0)
+[25/05/2025 22:02:40] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [8.0,7.0,1.0,1.0]
+[25/05/2025 22:02:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 8
+[25/05/2025 22:02:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 6
+[25/05/2025 22:02:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 5
+[25/05/2025 22:02:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 4
+[25/05/2025 22:02:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 3
+[25/05/2025 22:02:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 2
+[25/05/2025 22:02:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 6
+[25/05/2025 22:02:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 5
+[25/05/2025 22:02:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 4
+[25/05/2025 22:02:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 3
+[25/05/2025 22:02:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 2
+[25/05/2025 22:02:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 8
+[25/05/2025 22:02:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 9
+[25/05/2025 22:02:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 10
+[25/05/2025 22:02:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 11
+[25/05/2025 22:02:40] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 3, 12
+[25/05/2025 22:02:41] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (12.0,3.0)
+[25/05/2025 22:02:41] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [12.0,3.0,1.0,1.0]
+[25/05/2025 22:02:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 4
+[25/05/2025 22:02:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 5
+[25/05/2025 22:02:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 6
+[25/05/2025 22:02:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 16, 7
+[25/05/2025 22:02:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 17, 8
+[25/05/2025 22:02:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 18, 9
+[25/05/2025 22:02:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 19, 10
+[25/05/2025 22:02:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 2
+[25/05/2025 22:02:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 2
+[25/05/2025 22:02:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 4
+[25/05/2025 22:02:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 5
+[25/05/2025 22:02:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 6
+[25/05/2025 22:02:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 7
+[25/05/2025 22:02:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 8
+[25/05/2025 22:02:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 9
+[25/05/2025 22:02:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 10
+[25/05/2025 22:02:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 11
+[25/05/2025 22:02:41] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 3, 12
+[25/05/2025 22:02:43] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (14.0,3.0)
+[25/05/2025 22:02:43] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [14.0,3.0,1.0,1.0]
+[25/05/2025 22:02:43] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 4
+[25/05/2025 22:02:43] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 16, 5
+[25/05/2025 22:02:43] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 17, 6
+[25/05/2025 22:02:43] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 18, 7
+[25/05/2025 22:02:43] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 19, 8
+[25/05/2025 22:02:43] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 20, 9
+[25/05/2025 22:02:43] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 2
+[25/05/2025 22:02:43] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 2
+[25/05/2025 22:02:43] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 4
+[25/05/2025 22:02:43] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 5
+[25/05/2025 22:02:45] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (15.0,3.0)
+[25/05/2025 22:02:45] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [15.0,3.0,1.0,1.0]
+[25/05/2025 22:02:45] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 16, 4
+[25/05/2025 22:02:45] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 17, 5
+[25/05/2025 22:02:45] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 18, 6
+[25/05/2025 22:02:45] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 19, 7
+[25/05/2025 22:02:45] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 20, 8
+[25/05/2025 22:02:45] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 2
+[25/05/2025 22:02:45] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 16, 2
+[25/05/2025 22:02:45] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 4
+[25/05/2025 22:02:45] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 5
+[25/05/2025 22:02:45] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 6
+[25/05/2025 22:02:45] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 7
+[25/05/2025 22:02:45] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 8
+[25/05/2025 22:02:45] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 9
+[25/05/2025 22:02:50] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded successfully: Map_Assets/Map_Level_4.tmx
+[25/05/2025 22:02:50] [INFO] class com.badlogic.gdx.utils.Logger: MapController initialized with map: Map_Assets/Map_Level_4.tmx
+[25/05/2025 22:02:50] [INFO] class com.badlogic.gdx.utils.Logger: Block polygon loaded: 13
+[25/05/2025 22:02:50] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Rook at tilePosition: (3.0,9.0)
+[25/05/2025 22:02:50] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: King at tilePosition: (3.0,6.0)
+[25/05/2025 22:02:50] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: TargetChess at tilePosition: (10.0,4.0)
+[25/05/2025 22:02:51] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (3.0,6.0)
+[25/05/2025 22:02:51] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [3.0,6.0,1.0,1.0]
+[25/05/2025 22:02:51] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 6
+[25/05/2025 22:02:51] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 2, 6
+[25/05/2025 22:02:51] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 7
+[25/05/2025 22:02:51] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 5
+[25/05/2025 22:02:51] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 7
+[25/05/2025 22:02:51] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 2, 5
+[25/05/2025 22:02:51] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 5
+[25/05/2025 22:02:51] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 2, 7
+[25/05/2025 22:02:53] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (4.0,6.0)
+[25/05/2025 22:02:53] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [4.0,6.0,1.0,1.0]
+[25/05/2025 22:02:53] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 6
+[25/05/2025 22:02:53] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 6
+[25/05/2025 22:02:53] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 7
+[25/05/2025 22:02:53] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 5
+[25/05/2025 22:02:53] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 7
+[25/05/2025 22:02:53] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 5
+[25/05/2025 22:02:53] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 5
+[25/05/2025 22:02:53] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 7
+[25/05/2025 22:02:54] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (5.0,6.0)
+[25/05/2025 22:02:54] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [5.0,6.0,1.0,1.0]
+[25/05/2025 22:02:54] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 6
+[25/05/2025 22:02:54] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 6
+[25/05/2025 22:02:54] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 7
+[25/05/2025 22:02:54] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 5
+[25/05/2025 22:02:54] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 7
+[25/05/2025 22:02:54] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 5
+[25/05/2025 22:02:54] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 5
+[25/05/2025 22:02:54] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 7
+[25/05/2025 22:02:55] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Rook at position: (3.0,9.0)
+[25/05/2025 22:02:55] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [3.0,9.0,1.0,1.0]
+[25/05/2025 22:02:55] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 9
+[25/05/2025 22:02:55] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 9
+[25/05/2025 22:02:55] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 9
+[25/05/2025 22:02:55] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 9
+[25/05/2025 22:02:55] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 9
+[25/05/2025 22:02:55] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 9
+[25/05/2025 22:02:55] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 9
+[25/05/2025 22:02:55] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 9
+[25/05/2025 22:02:55] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 9
+[25/05/2025 22:02:55] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 9
+[25/05/2025 22:02:55] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 9
+[25/05/2025 22:02:55] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 2, 9
+[25/05/2025 22:02:55] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 1, 9
+[25/05/2025 22:02:55] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 10
+[25/05/2025 22:02:55] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 11
+[25/05/2025 22:02:55] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 3, 12
+[25/05/2025 22:02:55] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 8
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Rook at position: (6.0,7.0)
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [6.0,7.0,1.0,1.0]
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 7
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 7
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 7
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 7
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 7
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 7
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 7
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 7
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 7
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 16, 7
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 17, 7
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 18, 7
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 7
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 7
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 7
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 2, 7
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 1, 7
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 8
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 9
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 10
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 11
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 6, 12
+[25/05/2025 22:02:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 6
+[25/05/2025 22:03:00] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Rook at position: (15.0,4.0)
+[25/05/2025 22:03:00] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [15.0,4.0,1.0,1.0]
+[25/05/2025 22:03:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 16, 4
+[25/05/2025 22:03:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 17, 4
+[25/05/2025 22:03:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 18, 4
+[25/05/2025 22:03:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 4
+[25/05/2025 22:03:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 4
+[25/05/2025 22:03:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 4
+[25/05/2025 22:03:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 4
+[25/05/2025 22:03:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 4
+[25/05/2025 22:03:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 4
+[25/05/2025 22:03:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 5
+[25/05/2025 22:03:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 6
+[25/05/2025 22:03:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 7
+[25/05/2025 22:03:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 8
+[25/05/2025 22:03:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 9
+[25/05/2025 22:03:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 10
+[25/05/2025 22:03:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 11
+[25/05/2025 22:03:00] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 15, 12
+[25/05/2025 22:03:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 3
+[25/05/2025 22:03:03] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded successfully: Map_Assets/Map_Level_5.tmx
+[25/05/2025 22:03:03] [INFO] class com.badlogic.gdx.utils.Logger: MapController initialized with map: Map_Assets/Map_Level_5.tmx
+[25/05/2025 22:03:03] [INFO] class com.badlogic.gdx.utils.Logger: Block polygon loaded: 13
+[25/05/2025 22:03:03] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: King at tilePosition: (4.0,7.0)
+[25/05/2025 22:03:03] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Bishop at tilePosition: (7.0,3.0)
+[25/05/2025 22:03:03] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Bishop at tilePosition: (15.0,3.0)
+[25/05/2025 22:03:03] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: TargetChess at tilePosition: (13.0,8.0)
+[25/05/2025 22:03:04] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (4.0,7.0)
+[25/05/2025 22:03:04] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [4.0,7.0,1.0,1.0]
+[25/05/2025 22:03:04] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 7
+[25/05/2025 22:03:04] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 7
+[25/05/2025 22:03:04] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 8
+[25/05/2025 22:03:04] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 6
+[25/05/2025 22:03:04] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 8
+[25/05/2025 22:03:04] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 6
+[25/05/2025 22:03:04] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 6
+[25/05/2025 22:03:04] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 8
+[25/05/2025 22:03:06] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (5.0,7.0)
+[25/05/2025 22:03:06] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [5.0,7.0,1.0,1.0]
+[25/05/2025 22:03:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 7
+[25/05/2025 22:03:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 7
+[25/05/2025 22:03:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 8
+[25/05/2025 22:03:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 6
+[25/05/2025 22:03:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 8
+[25/05/2025 22:03:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 6
+[25/05/2025 22:03:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 6
+[25/05/2025 22:03:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 8
+[25/05/2025 22:03:08] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (7.0,3.0)
+[25/05/2025 22:03:08] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [7.0,3.0,1.0,1.0]
+[25/05/2025 22:03:08] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 4
+[25/05/2025 22:03:08] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 5
+[25/05/2025 22:03:08] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 6
+[25/05/2025 22:03:08] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 7
+[25/05/2025 22:03:08] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 8
+[25/05/2025 22:03:08] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 2
+[25/05/2025 22:03:08] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 2
+[25/05/2025 22:03:08] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 4
+[25/05/2025 22:03:08] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 5
+[25/05/2025 22:03:08] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 6
+[25/05/2025 22:03:11] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (9.0,3.0)
+[25/05/2025 22:03:11] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [9.0,3.0,1.0,1.0]
+[25/05/2025 22:03:11] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 4
+[25/05/2025 22:03:11] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 5
+[25/05/2025 22:03:11] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 6
+[25/05/2025 22:03:11] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 7
+[25/05/2025 22:03:11] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 2
+[25/05/2025 22:03:11] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 2
+[25/05/2025 22:03:11] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 4
+[25/05/2025 22:03:11] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 5
+[25/05/2025 22:03:11] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 6
+[25/05/2025 22:03:13] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (10.0,3.0)
+[25/05/2025 22:03:13] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [10.0,3.0,1.0,1.0]
+[25/05/2025 22:03:13] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 4
+[25/05/2025 22:03:13] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 5
+[25/05/2025 22:03:13] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 6
+[25/05/2025 22:03:13] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 7
+[25/05/2025 22:03:13] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 2
+[25/05/2025 22:03:13] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 2
+[25/05/2025 22:03:13] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 4
+[25/05/2025 22:03:13] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 5
+[25/05/2025 22:03:13] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 6
+[25/05/2025 22:03:15] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (11.0,3.0)
+[25/05/2025 22:03:15] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [11.0,3.0,1.0,1.0]
+[25/05/2025 22:03:15] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 4
+[25/05/2025 22:03:15] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 5
+[25/05/2025 22:03:15] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 6
+[25/05/2025 22:03:15] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 7
+[25/05/2025 22:03:15] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 2
+[25/05/2025 22:03:15] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 2
+[25/05/2025 22:03:15] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 4
+[25/05/2025 22:03:15] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 5
+[25/05/2025 22:03:15] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 6
+[25/05/2025 22:03:16] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (15.0,3.0)
+[25/05/2025 22:03:16] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [15.0,3.0,1.0,1.0]
+[25/05/2025 22:03:16] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 16, 4
+[25/05/2025 22:03:16] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 17, 5
+[25/05/2025 22:03:16] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 18, 6
+[25/05/2025 22:03:16] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 19, 7
+[25/05/2025 22:03:16] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 20, 8
+[25/05/2025 22:03:16] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 2
+[25/05/2025 22:03:16] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 16, 2
+[25/05/2025 22:03:16] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 4
+[25/05/2025 22:03:16] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 5
+[25/05/2025 22:03:16] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 6
+[25/05/2025 22:03:16] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 7
+[25/05/2025 22:03:16] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 8
+[25/05/2025 22:03:19] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (11.0,4.0)
+[25/05/2025 22:03:19] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [11.0,4.0,1.0,1.0]
+[25/05/2025 22:03:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 5
+[25/05/2025 22:03:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 6
+[25/05/2025 22:03:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 7
+[25/05/2025 22:03:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 3
+[25/05/2025 22:03:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 2
+[25/05/2025 22:03:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 3
+[25/05/2025 22:03:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 5
+[25/05/2025 22:03:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 6
+[25/05/2025 22:03:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 7
+[25/05/2025 22:03:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 8
+[25/05/2025 22:03:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 9
+[25/05/2025 22:03:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 10
+[25/05/2025 22:03:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 11
+[25/05/2025 22:03:19] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 3, 12
+[25/05/2025 22:03:22] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (7.0,7.0)
+[25/05/2025 22:03:22] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [7.0,7.0,1.0,1.0]
+[25/05/2025 22:03:22] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 8
+[25/05/2025 22:03:22] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 9
+[25/05/2025 22:03:22] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 10
+[25/05/2025 22:03:22] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 11
+[25/05/2025 22:03:22] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 12, 12
+[25/05/2025 22:03:22] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 6
+[25/05/2025 22:03:22] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 6
+[25/05/2025 22:03:22] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 8
+[25/05/2025 22:03:22] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 9
+[25/05/2025 22:03:22] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 10
+[25/05/2025 22:03:22] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 11
+[25/05/2025 22:03:22] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 2, 12
+[25/05/2025 22:03:26] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (10.0,9.0)
+[25/05/2025 22:03:26] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [10.0,9.0,1.0,1.0]
+[25/05/2025 22:03:26] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 10
+[25/05/2025 22:03:26] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 11
+[25/05/2025 22:03:26] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 13, 12
+[25/05/2025 22:03:26] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 8
+[25/05/2025 22:03:26] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 8
+[25/05/2025 22:03:26] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 10
+[25/05/2025 22:03:26] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 11
+[25/05/2025 22:03:26] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 7, 12
+[25/05/2025 22:03:28] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (12.0,11.0)
+[25/05/2025 22:03:28] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [12.0,11.0,1.0,1.0]
+[25/05/2025 22:03:28] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 13, 12
+[25/05/2025 22:03:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 10
+[25/05/2025 22:03:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 9
+[25/05/2025 22:03:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 8
+[25/05/2025 22:03:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 10
+[25/05/2025 22:03:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 9
+[25/05/2025 22:03:28] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 11, 12
+[25/05/2025 22:03:29] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (13.0,10.0)
+[25/05/2025 22:03:29] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [13.0,10.0,1.0,1.0]
+[25/05/2025 22:03:29] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 11
+[25/05/2025 22:03:29] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 9
+[25/05/2025 22:03:29] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 9
+[25/05/2025 22:03:29] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 11
+[25/05/2025 22:03:29] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 11, 12
+[25/05/2025 22:03:33] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (12.0,11.0)
+[25/05/2025 22:03:33] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [12.0,11.0,1.0,1.0]
+[25/05/2025 22:03:33] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 13, 12
+[25/05/2025 22:03:33] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 10
+[25/05/2025 22:03:33] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 9
+[25/05/2025 22:03:33] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 8
+[25/05/2025 22:03:33] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 10
+[25/05/2025 22:03:33] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 9
+[25/05/2025 22:03:33] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 11, 12
+[25/05/2025 22:03:35] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (6.0,7.0)
+[25/05/2025 22:03:35] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [6.0,7.0,1.0,1.0]
+[25/05/2025 22:03:35] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 7
+[25/05/2025 22:03:35] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 7
+[25/05/2025 22:03:35] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 8
+[25/05/2025 22:03:35] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 6
+[25/05/2025 22:03:35] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 8
+[25/05/2025 22:03:35] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 6
+[25/05/2025 22:03:35] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 6
+[25/05/2025 22:03:35] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 8
+[25/05/2025 22:03:36] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (7.0,7.0)
+[25/05/2025 22:03:36] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [7.0,7.0,1.0,1.0]
+[25/05/2025 22:03:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 7
+[25/05/2025 22:03:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 7
+[25/05/2025 22:03:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 8
+[25/05/2025 22:03:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 6
+[25/05/2025 22:03:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 8
+[25/05/2025 22:03:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 6
+[25/05/2025 22:03:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 6
+[25/05/2025 22:03:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 8
+[25/05/2025 22:03:38] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (10.0,9.0)
+[25/05/2025 22:03:38] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [10.0,9.0,1.0,1.0]
+[25/05/2025 22:03:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 10
+[25/05/2025 22:03:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 11
+[25/05/2025 22:03:38] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 13, 12
+[25/05/2025 22:03:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 8
+[25/05/2025 22:03:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 8
+[25/05/2025 22:03:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 10
+[25/05/2025 22:03:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 11
+[25/05/2025 22:03:38] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 7, 12
+[25/05/2025 22:03:40] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (9.0,9.0)
+[25/05/2025 22:03:40] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [9.0,9.0,1.0,1.0]
+[25/05/2025 22:03:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 10
+[25/05/2025 22:03:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 11
+[25/05/2025 22:03:40] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 12, 12
+[25/05/2025 22:03:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 8
+[25/05/2025 22:03:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 7
+[25/05/2025 22:03:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 6
+[25/05/2025 22:03:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 8
+[25/05/2025 22:03:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 10
+[25/05/2025 22:03:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 11
+[25/05/2025 22:03:40] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 6, 12
+[25/05/2025 22:03:41] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (8.0,7.0)
+[25/05/2025 22:03:41] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [8.0,7.0,1.0,1.0]
+[25/05/2025 22:03:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 7
+[25/05/2025 22:03:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 7
+[25/05/2025 22:03:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 8
+[25/05/2025 22:03:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 6
+[25/05/2025 22:03:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 8
+[25/05/2025 22:03:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 6
+[25/05/2025 22:03:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 6
+[25/05/2025 22:03:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 8
+[25/05/2025 22:03:43] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (7.0,7.0)
+[25/05/2025 22:03:43] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [7.0,7.0,1.0,1.0]
+[25/05/2025 22:03:43] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 8
+[25/05/2025 22:03:43] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 9
+[25/05/2025 22:03:43] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 10
+[25/05/2025 22:03:43] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 11
+[25/05/2025 22:03:43] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 12, 12
+[25/05/2025 22:03:43] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 6
+[25/05/2025 22:03:43] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 6
+[25/05/2025 22:03:43] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 8
+[25/05/2025 22:03:43] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 9
+[25/05/2025 22:03:43] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 10
+[25/05/2025 22:03:43] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 11
+[25/05/2025 22:03:43] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 2, 12
+[25/05/2025 22:03:45] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (7.0,7.0)
+[25/05/2025 22:03:45] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [7.0,7.0,1.0,1.0]
+[25/05/2025 22:03:45] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 7
+[25/05/2025 22:03:45] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 7
+[25/05/2025 22:03:45] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 8
+[25/05/2025 22:03:45] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 6
+[25/05/2025 22:03:45] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 8
+[25/05/2025 22:03:45] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 6
+[25/05/2025 22:03:45] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 6
+[25/05/2025 22:03:45] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 8
+[25/05/2025 22:03:47] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (8.0,8.0)
+[25/05/2025 22:03:47] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [8.0,8.0,1.0,1.0]
+[25/05/2025 22:03:47] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 8
+[25/05/2025 22:03:47] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 8
+[25/05/2025 22:03:47] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 9
+[25/05/2025 22:03:47] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 7
+[25/05/2025 22:03:47] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 9
+[25/05/2025 22:03:47] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 7
+[25/05/2025 22:03:47] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 7
+[25/05/2025 22:03:47] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 9
+[25/05/2025 22:03:48] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (9.0,9.0)
+[25/05/2025 22:03:48] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [9.0,9.0,1.0,1.0]
+[25/05/2025 22:03:48] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 9
+[25/05/2025 22:03:48] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 9
+[25/05/2025 22:03:48] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 10
+[25/05/2025 22:03:48] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 8
+[25/05/2025 22:03:48] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 10
+[25/05/2025 22:03:48] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 8
+[25/05/2025 22:03:48] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 8
+[25/05/2025 22:03:48] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 10
+[25/05/2025 22:03:49] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (10.0,9.0)
+[25/05/2025 22:03:49] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [10.0,9.0,1.0,1.0]
+[25/05/2025 22:03:49] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 9
+[25/05/2025 22:03:49] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 9
+[25/05/2025 22:03:49] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 10
+[25/05/2025 22:03:49] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 8
+[25/05/2025 22:03:49] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 10
+[25/05/2025 22:03:49] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 8
+[25/05/2025 22:03:49] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 8
+[25/05/2025 22:03:49] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 10
+[25/05/2025 22:03:51] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (8.0,7.0)
+[25/05/2025 22:03:51] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [8.0,7.0,1.0,1.0]
+[25/05/2025 22:03:51] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 8
+[25/05/2025 22:03:51] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 6
+[25/05/2025 22:03:51] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 6
+[25/05/2025 22:03:51] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 5
+[25/05/2025 22:03:51] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 4
+[25/05/2025 22:03:51] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 3
+[25/05/2025 22:03:51] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 8
+[25/05/2025 22:03:51] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 9
+[25/05/2025 22:03:51] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 10
+[25/05/2025 22:03:51] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 11
+[25/05/2025 22:03:51] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 3, 12
+[25/05/2025 22:03:54] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (7.0,7.0)
+[25/05/2025 22:03:54] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [7.0,7.0,1.0,1.0]
+[25/05/2025 22:03:54] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 8
+[25/05/2025 22:03:54] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 9
+[25/05/2025 22:03:54] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 10
+[25/05/2025 22:03:54] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 11
+[25/05/2025 22:03:54] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 12, 12
+[25/05/2025 22:03:54] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 6
+[25/05/2025 22:03:54] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 6
+[25/05/2025 22:03:54] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 8
+[25/05/2025 22:03:54] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 9
+[25/05/2025 22:03:54] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 10
+[25/05/2025 22:03:54] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 11
+[25/05/2025 22:03:54] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 2, 12
+[25/05/2025 22:03:56] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (11.0,9.0)
+[25/05/2025 22:03:56] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [11.0,9.0,1.0,1.0]
+[25/05/2025 22:03:56] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 9
+[25/05/2025 22:03:56] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 9
+[25/05/2025 22:03:56] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 10
+[25/05/2025 22:03:56] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 8
+[25/05/2025 22:03:56] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 10
+[25/05/2025 22:03:56] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 8
+[25/05/2025 22:03:56] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 8
+[25/05/2025 22:03:56] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 10
+[25/05/2025 22:03:57] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Bishop at position: (10.0,9.0)
+[25/05/2025 22:03:57] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [10.0,9.0,1.0,1.0]
+[25/05/2025 22:03:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 10
+[25/05/2025 22:03:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 11
+[25/05/2025 22:03:57] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 13, 12
+[25/05/2025 22:03:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 8
+[25/05/2025 22:03:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 8
+[25/05/2025 22:03:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 10
+[25/05/2025 22:03:57] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 11
+[25/05/2025 22:03:57] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 7, 12
+[25/05/2025 22:03:58] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (10.0,9.0)
+[25/05/2025 22:03:58] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [10.0,9.0,1.0,1.0]
+[25/05/2025 22:03:58] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 9
+[25/05/2025 22:03:58] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 9
+[25/05/2025 22:03:58] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 10
+[25/05/2025 22:03:58] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 8
+[25/05/2025 22:03:58] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 10
+[25/05/2025 22:03:58] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 8
+[25/05/2025 22:03:58] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 8
+[25/05/2025 22:03:58] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 10
+[25/05/2025 22:04:00] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (11.0,10.0)
+[25/05/2025 22:04:00] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [11.0,10.0,1.0,1.0]
+[25/05/2025 22:04:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 10
+[25/05/2025 22:04:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 10
+[25/05/2025 22:04:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 11
+[25/05/2025 22:04:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 9
+[25/05/2025 22:04:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 11
+[25/05/2025 22:04:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 9
+[25/05/2025 22:04:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 9
+[25/05/2025 22:04:00] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 11
+[25/05/2025 22:04:01] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (12.0,11.0)
+[25/05/2025 22:04:01] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [12.0,11.0,1.0,1.0]
+[25/05/2025 22:04:01] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 11
+[25/05/2025 22:04:01] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 11
+[25/05/2025 22:04:01] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 12, 12
+[25/05/2025 22:04:01] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 10
+[25/05/2025 22:04:01] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 13, 12
+[25/05/2025 22:04:01] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 10
+[25/05/2025 22:04:01] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 10
+[25/05/2025 22:04:01] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 11, 12
+[25/05/2025 22:04:02] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (13.0,10.0)
+[25/05/2025 22:04:02] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [13.0,10.0,1.0,1.0]
+[25/05/2025 22:04:02] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 10
+[25/05/2025 22:04:02] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 10
+[25/05/2025 22:04:02] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 11
+[25/05/2025 22:04:02] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 9
+[25/05/2025 22:04:02] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 11
+[25/05/2025 22:04:02] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 9
+[25/05/2025 22:04:02] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 9
+[25/05/2025 22:04:02] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 11
+[25/05/2025 22:04:03] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (14.0,10.0)
+[25/05/2025 22:04:03] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [14.0,10.0,1.0,1.0]
+[25/05/2025 22:04:03] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 10
+[25/05/2025 22:04:03] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 10
+[25/05/2025 22:04:03] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 11
+[25/05/2025 22:04:03] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 9
+[25/05/2025 22:04:03] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 11
+[25/05/2025 22:04:03] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 9
+[25/05/2025 22:04:03] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 9
+[25/05/2025 22:04:03] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 11
+[25/05/2025 22:04:05] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (15.0,8.0)
+[25/05/2025 22:04:05] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [15.0,8.0,1.0,1.0]
+[25/05/2025 22:04:05] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 16, 8
+[25/05/2025 22:04:05] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 8
+[25/05/2025 22:04:05] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 9
+[25/05/2025 22:04:05] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 7
+[25/05/2025 22:04:05] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 16, 9
+[25/05/2025 22:04:05] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 7
+[25/05/2025 22:04:05] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 16, 7
+[25/05/2025 22:04:05] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 9
+[25/05/2025 22:04:06] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: King at position: (14.0,8.0)
+[25/05/2025 22:04:06] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [14.0,8.0,1.0,1.0]
+[25/05/2025 22:04:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 8
+[25/05/2025 22:04:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 8
+[25/05/2025 22:04:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 9
+[25/05/2025 22:04:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 7
+[25/05/2025 22:04:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 9
+[25/05/2025 22:04:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 7
+[25/05/2025 22:04:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 7
+[25/05/2025 22:04:06] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 9
+[25/05/2025 22:04:10] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded successfully: Map_Assets/Map_Level_6.tmx
+[25/05/2025 22:04:10] [INFO] class com.badlogic.gdx.utils.Logger: MapController initialized with map: Map_Assets/Map_Level_6.tmx
+[25/05/2025 22:04:10] [INFO] class com.badlogic.gdx.utils.Logger: Block polygon loaded: 13
+[25/05/2025 22:04:10] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Knight at tilePosition: (6.0,3.0)
+[25/05/2025 22:04:10] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: TargetChess at tilePosition: (15.0,7.0)
+[25/05/2025 22:04:11] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Knight at position: (6.0,3.0)
+[25/05/2025 22:04:11] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [6.0,3.0,1.0,1.0]
+[25/05/2025 22:04:11] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 4
+[25/05/2025 22:04:11] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 2
+[25/05/2025 22:04:11] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 4
+[25/05/2025 22:04:11] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 2
+[25/05/2025 22:04:11] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 5
+[25/05/2025 22:04:11] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 5
+[25/05/2025 22:04:11] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 1
+[25/05/2025 22:04:11] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 1
+[25/05/2025 22:04:14] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Knight at position: (8.0,3.0)
+[25/05/2025 22:04:14] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [8.0,3.0,1.0,1.0]
+[25/05/2025 22:04:14] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 4
+[25/05/2025 22:04:14] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 2
+[25/05/2025 22:04:14] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 4
+[25/05/2025 22:04:14] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 2
+[25/05/2025 22:04:14] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 5
+[25/05/2025 22:04:14] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 5
+[25/05/2025 22:04:14] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 1
+[25/05/2025 22:04:14] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 1
+[25/05/2025 22:04:16] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Knight at position: (6.0,3.0)
+[25/05/2025 22:04:16] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [6.0,3.0,1.0,1.0]
+[25/05/2025 22:04:16] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 4
+[25/05/2025 22:04:16] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 2
+[25/05/2025 22:04:16] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 4
+[25/05/2025 22:04:16] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 2
+[25/05/2025 22:04:16] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 5
+[25/05/2025 22:04:16] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 5
+[25/05/2025 22:04:16] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 1
+[25/05/2025 22:04:16] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 1
+[25/05/2025 22:04:18] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Knight at position: (5.0,5.0)
+[25/05/2025 22:04:18] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [5.0,5.0,1.0,1.0]
+[25/05/2025 22:04:18] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 6
+[25/05/2025 22:04:18] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 4
+[25/05/2025 22:04:18] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 6
+[25/05/2025 22:04:18] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 4
+[25/05/2025 22:04:18] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 7
+[25/05/2025 22:04:18] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 7
+[25/05/2025 22:04:18] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 3
+[25/05/2025 22:04:18] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 3
+[25/05/2025 22:04:19] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Knight at position: (4.0,7.0)
+[25/05/2025 22:04:19] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [4.0,7.0,1.0,1.0]
+[25/05/2025 22:04:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 8
+[25/05/2025 22:04:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 6
+[25/05/2025 22:04:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 2, 8
+[25/05/2025 22:04:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 2, 6
+[25/05/2025 22:04:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 9
+[25/05/2025 22:04:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 9
+[25/05/2025 22:04:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 5
+[25/05/2025 22:04:19] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 5
+[25/05/2025 22:04:21] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Knight at position: (5.0,9.0)
+[25/05/2025 22:04:21] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [5.0,9.0,1.0,1.0]
+[25/05/2025 22:04:21] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 10
+[25/05/2025 22:04:21] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 8
+[25/05/2025 22:04:21] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 10
+[25/05/2025 22:04:21] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 3, 8
+[25/05/2025 22:04:21] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 11
+[25/05/2025 22:04:21] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 11
+[25/05/2025 22:04:21] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 7
+[25/05/2025 22:04:21] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 4, 7
+[25/05/2025 22:04:23] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Knight at position: (7.0,9.0)
+[25/05/2025 22:04:23] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [7.0,9.0,1.0,1.0]
+[25/05/2025 22:04:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 10
+[25/05/2025 22:04:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 8
+[25/05/2025 22:04:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 10
+[25/05/2025 22:04:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 5, 8
+[25/05/2025 22:04:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 11
+[25/05/2025 22:04:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 11
+[25/05/2025 22:04:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 7
+[25/05/2025 22:04:23] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 6, 7
+[25/05/2025 22:04:24] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Knight at position: (9.0,9.0)
+[25/05/2025 22:04:24] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [9.0,9.0,1.0,1.0]
+[25/05/2025 22:04:24] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 10
+[25/05/2025 22:04:24] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 8
+[25/05/2025 22:04:24] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 10
+[25/05/2025 22:04:24] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 7, 8
+[25/05/2025 22:04:24] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 11
+[25/05/2025 22:04:24] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 11
+[25/05/2025 22:04:24] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 7
+[25/05/2025 22:04:24] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 7
+[25/05/2025 22:04:26] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Knight at position: (11.0,10.0)
+[25/05/2025 22:04:26] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [11.0,10.0,1.0,1.0]
+[25/05/2025 22:04:26] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 11
+[25/05/2025 22:04:26] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 9
+[25/05/2025 22:04:26] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 11
+[25/05/2025 22:04:26] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 9
+[25/05/2025 22:04:26] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 12, 12
+[25/05/2025 22:04:26] [INFO] class com.badlogic.gdx.utils.Logger: Position out of bounds: 10, 12
+[25/05/2025 22:04:26] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 8
+[25/05/2025 22:04:26] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 8
+[25/05/2025 22:04:28] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Knight at position: (13.0,6.0)
+[25/05/2025 22:04:28] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [13.0,6.0,1.0,1.0]
+[25/05/2025 22:04:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 7
+[25/05/2025 22:04:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 5
+[25/05/2025 22:04:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 7
+[25/05/2025 22:04:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 5
+[25/05/2025 22:04:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 8
+[25/05/2025 22:04:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 8
+[25/05/2025 22:04:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 4
+[25/05/2025 22:04:28] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 4
+[25/05/2025 22:04:32] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded successfully: Map_Assets/Map_Level_7.tmx
+[25/05/2025 22:04:32] [INFO] class com.badlogic.gdx.utils.Logger: MapController initialized with map: Map_Assets/Map_Level_7.tmx
+[25/05/2025 22:04:32] [INFO] class com.badlogic.gdx.utils.Logger: Block polygon loaded: 12
+[25/05/2025 22:04:32] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Knight at tilePosition: (12.0,2.0)
+[25/05/2025 22:04:32] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Knight at tilePosition: (14.0,2.0)
+[25/05/2025 22:04:32] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: TargetChess at tilePosition: (9.0,10.0)
+[25/05/2025 22:04:34] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Knight at position: (12.0,2.0)
+[25/05/2025 22:04:34] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [12.0,2.0,1.0,1.0]
+[25/05/2025 22:04:34] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 3
+[25/05/2025 22:04:34] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 1
+[25/05/2025 22:04:34] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 3
+[25/05/2025 22:04:34] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 1
+[25/05/2025 22:04:34] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 4
+[25/05/2025 22:04:34] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 4
+[25/05/2025 22:04:34] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 0
+[25/05/2025 22:04:34] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 0
+[25/05/2025 22:04:36] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Knight at position: (11.0,2.0)
+[25/05/2025 22:04:36] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [11.0,2.0,1.0,1.0]
+[25/05/2025 22:04:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 3
+[25/05/2025 22:04:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 1
+[25/05/2025 22:04:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 3
+[25/05/2025 22:04:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 1
+[25/05/2025 22:04:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 4
+[25/05/2025 22:04:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 4
+[25/05/2025 22:04:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 0
+[25/05/2025 22:04:36] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 0
+[25/05/2025 22:04:38] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Knight at position: (14.0,2.0)
+[25/05/2025 22:04:38] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [14.0,2.0,1.0,1.0]
+[25/05/2025 22:04:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 16, 3
+[25/05/2025 22:04:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 16, 1
+[25/05/2025 22:04:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 3
+[25/05/2025 22:04:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 1
+[25/05/2025 22:04:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 4
+[25/05/2025 22:04:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 4
+[25/05/2025 22:04:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 0
+[25/05/2025 22:04:38] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 0
+[25/05/2025 22:04:40] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Knight at position: (12.0,2.0)
+[25/05/2025 22:04:40] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [12.0,2.0,1.0,1.0]
+[25/05/2025 22:04:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 3
+[25/05/2025 22:04:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 1
+[25/05/2025 22:04:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 3
+[25/05/2025 22:04:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 1
+[25/05/2025 22:04:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 4
+[25/05/2025 22:04:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 4
+[25/05/2025 22:04:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 0
+[25/05/2025 22:04:40] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 0
+[25/05/2025 22:04:41] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Knight at position: (10.0,4.0)
+[25/05/2025 22:04:41] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [10.0,4.0,1.0,1.0]
+[25/05/2025 22:04:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 5
+[25/05/2025 22:04:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 3
+[25/05/2025 22:04:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 5
+[25/05/2025 22:04:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 8, 3
+[25/05/2025 22:04:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 6
+[25/05/2025 22:04:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 6
+[25/05/2025 22:04:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 2
+[25/05/2025 22:04:41] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 2
+[25/05/2025 22:04:44] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Knight at position: (11.0,3.0)
+[25/05/2025 22:04:44] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [11.0,3.0,1.0,1.0]
+[25/05/2025 22:04:44] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 4
+[25/05/2025 22:04:44] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 2
+[25/05/2025 22:04:44] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 4
+[25/05/2025 22:04:44] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 2
+[25/05/2025 22:04:44] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 5
+[25/05/2025 22:04:44] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 5
+[25/05/2025 22:04:44] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 1
+[25/05/2025 22:04:44] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 1
+[25/05/2025 22:04:48] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Knight at position: (13.0,2.0)
+[25/05/2025 22:04:48] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [13.0,2.0,1.0,1.0]
+[25/05/2025 22:04:48] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 3
+[25/05/2025 22:04:48] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 15, 1
+[25/05/2025 22:04:48] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 3
+[25/05/2025 22:04:48] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 11, 1
+[25/05/2025 22:04:48] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 4
+[25/05/2025 22:04:48] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 4
+[25/05/2025 22:04:48] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 14, 0
+[25/05/2025 22:04:48] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 0
+[25/05/2025 22:04:50] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: Knight at position: (11.0,2.0)
+[25/05/2025 22:04:50] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess tile bounds: [11.0,2.0,1.0,1.0]
+[25/05/2025 22:04:50] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 3
+[25/05/2025 22:04:50] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 13, 1
+[25/05/2025 22:04:50] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 3
+[25/05/2025 22:04:50] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 9, 1
+[25/05/2025 22:04:50] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 4
+[25/05/2025 22:04:50] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 4
+[25/05/2025 22:04:50] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 12, 0
+[25/05/2025 22:04:50] [INFO] class com.badlogic.gdx.utils.Logger: Position within bounds: 10, 0
