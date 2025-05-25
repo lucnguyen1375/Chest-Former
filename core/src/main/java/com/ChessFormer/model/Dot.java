@@ -1,4 +1,4 @@
-package com.ChessFormer.model.chess;
+package com.ChessFormer.model;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;

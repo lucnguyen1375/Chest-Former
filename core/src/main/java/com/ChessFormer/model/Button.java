@@ -1,4 +1,4 @@
-package com.ChessFormer.screen;
+package com.ChessFormer.model;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;

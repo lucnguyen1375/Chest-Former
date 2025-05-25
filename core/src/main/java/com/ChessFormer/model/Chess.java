@@ -1,4 +1,4 @@
-package com.ChessFormer.model.chess;
+package com.ChessFormer.model;
 
 import com.ChessFormer.FileLogger;
 import com.badlogic.gdx.graphics.Texture;
@@ -8,8 +8,6 @@ import com.badlogic.gdx.math.Polygon;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.List;
 
 import static com.ChessFormer.Game_Utilz.UNIT_SCALE;
