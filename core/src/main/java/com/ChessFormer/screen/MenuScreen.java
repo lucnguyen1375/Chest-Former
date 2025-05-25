@@ -80,6 +80,7 @@ public class MenuScreen implements Screen {
         }
         mapRenderer = new OrthogonalTiledMapRenderer(map, UNIT_SCALE);
         loadMenu();
+        System.out.println("stage size" + stage.getWidth() + "x" + stage.getHeight());
         camera.setToOrtho(false, WINDOW_WIDTH / TILE_SIZE, WINDOW_HEIGHT / TILE_SIZE);
     }
 
@@ -91,14 +92,15 @@ public class MenuScreen implements Screen {
                 float x = obj.getProperties().get("x", Float.class)  ;
                 float y = (obj.getProperties().get("y", Float.class)-32) ;
                 int level = Integer.parseInt(obj.getName());
-
+                x = x / 32 * stage.getWidth() / 20;
+                y = y / 32 * stage.getHeight() / 12;
                 boolean unlocked = prefs.getBoolean("level_" + level + "_unlocked", level == 1);
-
+                System.out.println("Level: " + level + ", Unlocked: " + unlocked + ", Position: (" + x + ", " + y + ")");
                 LevelButton button = new LevelButton(level, unlocked, x, y, lvl -> {
                     System.out.println("Clicked level " + lvl);
                     game.setScreen(new GameScreen(game, lvl));
                 });
-                button.setSize(64,64);
+                button.setSize(stage.getWidth() / 20 * 2,stage.getHeight() / 12 * 2);
                 stage.addActor(button);
             }
         }
@@ -119,7 +121,12 @@ public class MenuScreen implements Screen {
         stage.draw();
     }
 
-    @Override public void resize(int width, int height) { stage.getViewport().update(width, height, true); }
+    @Override public void resize(int width, int height) {
+        stage.getViewport().update(width, height, true);
+        stage = new Stage(new ScreenViewport());
+        Gdx.input.setInputProcessor(stage);
+        loadMenu();
+    }
     @Override public void pause() { }
     @Override public void resume() { }
     @Override public void hide() { }
