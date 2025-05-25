@@ -1,24 +1,1482 @@
-[17/05/2025 20:26:06] === Log started ===
-[17/05/2025 20:26:06] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded: com.badlogic.gdx.maps.tiled.TiledMap@55a1c291
-[17/05/2025 20:26:06] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Rook at tilePosition: (17.0,6.0)
-[17/05/2025 20:26:06] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: King at tilePosition: (15.0,6.0)
-[17/05/2025 20:26:06] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Queen at tilePosition: (13.0,6.0)
-[17/05/2025 20:26:06] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Pawn at tilePosition: (6.0,6.0)
-[17/05/2025 20:26:06] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Knight at tilePosition: (4.0,6.0)
-[17/05/2025 20:26:06] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Pawn at tilePosition: (2.0,6.0)
-[17/05/2025 20:26:06] [INFO] class com.badlogic.gdx.utils.Logger: Resized MainScreen to: 1200x720
-[17/05/2025 20:26:06] [INFO] class com.badlogic.gdx.utils.Logger: Game started - Loaded LoginScreen
-[17/05/2025 20:26:06] [INFO] class com.badlogic.gdx.utils.Logger: Resized MainScreen to: 1200x720
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: GameScreen initialized with window size: 1200x720
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded: com.badlogic.gdx.maps.tiled.TiledMap@60611244
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Block rectangles loaded: 12
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Knight at tilePosition: (17.0,6.0)
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Pawn at tilePosition: (4.0,7.0)
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: King at tilePosition: (4.0,2.0)
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: TargetChess at tilePosition: (10.0,8.0)
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Window resized to: 1200x720
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@a4102b8
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@11dc3715
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@69930714
-[17/05/2025 20:26:07] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@7a52f2a2
-[17/05/2025 20:26:10] [INFO] class com.badlogic.gdx.utils.Logger: Game disposed - Unloaded Game Screen
+[25/05/2025 15:10:20] === Log started ===
+[25/05/2025 15:10:21] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded: com.badlogic.gdx.maps.tiled.TiledMap@4d826d77
+[25/05/2025 15:10:21] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: w_Rook at tilePosition: (17.0,6.0)
+[25/05/2025 15:10:21] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: w_King at tilePosition: (15.0,6.0)
+[25/05/2025 15:10:21] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: w_Queen at tilePosition: (13.0,6.0)
+[25/05/2025 15:10:21] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: w_Pawn at tilePosition: (6.0,6.0)
+[25/05/2025 15:10:21] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: w_Knight at tilePosition: (4.0,6.0)
+[25/05/2025 15:10:21] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: w_Pawn at tilePosition: (2.0,6.0)
+[25/05/2025 15:10:21] [INFO] class com.badlogic.gdx.utils.Logger: Resized MainScreen to: 1200x720
+[25/05/2025 15:10:21] [INFO] class com.badlogic.gdx.utils.Logger: Game started - Loaded LoginScreen
+[25/05/2025 15:10:21] [INFO] class com.badlogic.gdx.utils.Logger: Resized MainScreen to: 1200x720
+[25/05/2025 15:10:23] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded successfully: Map_Assets/Map_Level_1.tmx
+[25/05/2025 15:10:23] [INFO] class com.badlogic.gdx.utils.Logger: MapController initialized with map: Map_Assets/Map_Level_1.tmx
+[25/05/2025 15:10:23] [INFO] class com.badlogic.gdx.utils.Logger: Block polygon loaded: 9
+[25/05/2025 15:10:23] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: w_King at tilePosition: (3.0,4.0)
+[25/05/2025 15:10:23] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: w_Knight at tilePosition: (7.0,7.0)
+[25/05/2025 15:10:23] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: b_Bishop at tilePosition: (13.0,5.0)
+[25/05/2025 15:10:23] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@17c1bced
+[25/05/2025 15:10:23] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@2d9d4f9d
+[25/05/2025 15:10:24] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@4034c28c
+[25/05/2025 15:10:24] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Knight at pixel: (7.0,5.0) (tile: 224.0,160.0)
+[25/05/2025 15:10:24] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:10:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 7.0
+[25/05/2025 15:10:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 6.0
+[25/05/2025 15:10:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 7.0
+[25/05/2025 15:10:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 6.0
+[25/05/2025 15:10:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 3.0
+[25/05/2025 15:10:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 4.0
+[25/05/2025 15:10:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 3.0
+[25/05/2025 15:10:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 4.0
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 9.0,4.0
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,7.0
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,6.0
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,7.0
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,6.0
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,3.0
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,4.0
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,3.0
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,4.0
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 9.0,4.0
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@17c1bced
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Knight at pixel: (9.0,4.0) (tile: 288.0,128.0)
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 6.0
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 5.0
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 6.0
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 5.0
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 2.0
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 3.0
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 2.0
+[25/05/2025 15:10:25] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 3.0
+[25/05/2025 15:10:26] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 11.0,5.0
+[25/05/2025 15:10:26] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,6.0
+[25/05/2025 15:10:26] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,5.0
+[25/05/2025 15:10:26] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,6.0
+[25/05/2025 15:10:26] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,5.0
+[25/05/2025 15:10:26] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,2.0
+[25/05/2025 15:10:26] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,3.0
+[25/05/2025 15:10:26] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,2.0
+[25/05/2025 15:10:26] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,3.0
+[25/05/2025 15:10:26] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 11.0,5.0
+[25/05/2025 15:10:26] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:10:27] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@6646153
+[25/05/2025 15:10:27] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Knight at pixel: (11.0,4.0) (tile: 352.0,128.0)
+[25/05/2025 15:10:27] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:10:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 6.0
+[25/05/2025 15:10:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 5.0
+[25/05/2025 15:10:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 6.0
+[25/05/2025 15:10:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 5.0
+[25/05/2025 15:10:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 2.0
+[25/05/2025 15:10:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 3.0
+[25/05/2025 15:10:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 2.0
+[25/05/2025 15:10:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 3.0
+[25/05/2025 15:10:28] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 13.0,5.0
+[25/05/2025 15:10:28] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,6.0
+[25/05/2025 15:10:28] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,5.0
+[25/05/2025 15:10:28] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,6.0
+[25/05/2025 15:10:28] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,5.0
+[25/05/2025 15:10:28] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,2.0
+[25/05/2025 15:10:28] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,3.0
+[25/05/2025 15:10:28] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,2.0
+[25/05/2025 15:10:28] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,3.0
+[25/05/2025 15:10:28] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 13.0,5.0
+[25/05/2025 15:10:28] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:10:28] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@2d9d4f9d
+[25/05/2025 15:10:30] [INFO] class com.badlogic.gdx.utils.Logger: Changing map to level: 2
+[25/05/2025 15:10:30] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded successfully: Map_Assets/Map_Level_2.tmx
+[25/05/2025 15:10:30] [INFO] class com.badlogic.gdx.utils.Logger: MapController initialized with map: Map_Assets/Map_Level_2.tmx
+[25/05/2025 15:10:30] [INFO] class com.badlogic.gdx.utils.Logger: Block polygon loaded: 16
+[25/05/2025 15:10:31] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: w_Rook at tilePosition: (3.0,10.0)
+[25/05/2025 15:10:31] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: b_Bishop at tilePosition: (11.0,1.0)
+[25/05/2025 15:10:31] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@21507a04
+[25/05/2025 15:10:31] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@143640d5
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Rook at pixel: (3.0,10.0) (tile: 96.0,320.0)
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 10.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 10.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 10.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 10.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 10.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 10.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 10.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 10.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 10.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 10.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 10.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 15.0, 10.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 16.0, 10.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 17.0, 10.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 18.0, 10.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 19.0, 10.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 10.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 1.0, 10.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 0.0, 10.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 11.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 9.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 8.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 7.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 6.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 5.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 4.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 3.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 2.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 1.0
+[25/05/2025 15:10:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 0.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 14.0,10.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,10.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,10.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,10.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,10.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,10.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,10.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,10.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,10.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,10.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,10.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,10.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 15.0,10.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 16.0,10.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 17.0,10.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 18.0,10.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 19.0,10.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,10.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 1.0,10.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 0.0,10.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,11.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,9.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,8.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,7.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,6.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,5.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,4.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,3.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,2.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,1.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,0.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 14.0,10.0
+[25/05/2025 15:10:33] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:10:34] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@6295d394
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Rook at pixel: (14.0,7.0) (tile: 448.0,224.0)
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 15.0, 7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 16.0, 7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 17.0, 7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 18.0, 7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 19.0, 7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 1.0, 7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 0.0, 7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 8.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 9.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 10.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 11.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 6.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 5.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 4.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 3.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 2.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 1.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 0.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 11.0,7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 15.0,7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 16.0,7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 17.0,7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 18.0,7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 19.0,7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 1.0,7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 0.0,7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,8.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,9.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,10.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,11.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,6.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,5.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,4.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,3.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,2.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,1.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,0.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 11.0,7.0
+[25/05/2025 15:10:35] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@6295d394
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Rook at pixel: (11.0,7.0) (tile: 352.0,224.0)
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 7.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 7.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 7.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 15.0, 7.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 16.0, 7.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 17.0, 7.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 18.0, 7.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 19.0, 7.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 7.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 7.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 7.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 7.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 7.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 7.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 7.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 7.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 7.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 1.0, 7.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 0.0, 7.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 8.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 9.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 10.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 11.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 6.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 5.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 4.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 3.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 2.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 1.0
+[25/05/2025 15:10:36] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 0.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 11.0,1.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,7.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,7.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,7.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 15.0,7.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 16.0,7.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 17.0,7.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 18.0,7.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 19.0,7.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,7.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,7.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,7.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,7.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,7.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,7.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,7.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,7.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,7.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 1.0,7.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 0.0,7.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,8.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,9.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,10.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,11.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,6.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,5.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,4.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,3.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,2.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,1.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,0.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 11.0,1.0
+[25/05/2025 15:10:37] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:10:38] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@143640d5
+[25/05/2025 15:10:38] [INFO] class com.badlogic.gdx.utils.Logger: Changing map to level: 3
+[25/05/2025 15:10:38] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded successfully: Map_Assets/Map_Level_3.tmx
+[25/05/2025 15:10:38] [INFO] class com.badlogic.gdx.utils.Logger: MapController initialized with map: Map_Assets/Map_Level_3.tmx
+[25/05/2025 15:10:38] [INFO] class com.badlogic.gdx.utils.Logger: Block polygon loaded: 15
+[25/05/2025 15:10:38] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: w_Bishop at tilePosition: (7.0,3.0)
+[25/05/2025 15:10:38] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: b_Bishop at tilePosition: (10.0,8.0)
+[25/05/2025 15:10:38] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@475e586c
+[25/05/2025 15:10:38] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@657c8ad9
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Bishop at pixel: (7.0,3.0) (tile: 224.0,96.0)
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 4.0
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 5.0
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 6.0
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 7.0
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 8.0
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 9.0
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 10.0
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 15.0, 11.0
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 4.0
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 5.0
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 6.0
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 7.0
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 8.0
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 1.0, 9.0
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 0.0, 10.0
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 2.0
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 1.0
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 0.0
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 2.0
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 1.0
+[25/05/2025 15:10:40] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 0.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 3.0,7.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,4.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,5.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,6.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,7.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,8.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,9.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,10.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 15.0,11.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,4.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,5.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,6.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,7.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,8.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 1.0,9.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 0.0,10.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,2.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,1.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,0.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,2.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,1.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,0.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 3.0,7.0
+[25/05/2025 15:10:43] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:10:44] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@475e586c
+[25/05/2025 15:10:45] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Bishop at pixel: (3.0,3.0) (tile: 96.0,96.0)
+[25/05/2025 15:10:45] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:10:45] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 4.0
+[25/05/2025 15:10:45] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 5.0
+[25/05/2025 15:10:45] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 6.0
+[25/05/2025 15:10:45] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 7.0
+[25/05/2025 15:10:45] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 8.0
+[25/05/2025 15:10:45] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 9.0
+[25/05/2025 15:10:45] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 10.0
+[25/05/2025 15:10:45] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 11.0
+[25/05/2025 15:10:45] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 4.0
+[25/05/2025 15:10:45] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 1.0, 5.0
+[25/05/2025 15:10:45] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 0.0, 6.0
+[25/05/2025 15:10:45] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 2.0
+[25/05/2025 15:10:45] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 1.0
+[25/05/2025 15:10:45] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 0.0
+[25/05/2025 15:10:45] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 2.0
+[25/05/2025 15:10:45] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 1.0, 1.0
+[25/05/2025 15:10:45] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 0.0, 0.0
+[25/05/2025 15:10:46] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 8.0,8.0
+[25/05/2025 15:10:46] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,4.0
+[25/05/2025 15:10:46] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,5.0
+[25/05/2025 15:10:46] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,6.0
+[25/05/2025 15:10:46] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,7.0
+[25/05/2025 15:10:46] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,8.0
+[25/05/2025 15:10:46] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,9.0
+[25/05/2025 15:10:46] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,10.0
+[25/05/2025 15:10:46] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,11.0
+[25/05/2025 15:10:46] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,4.0
+[25/05/2025 15:10:46] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 1.0,5.0
+[25/05/2025 15:10:46] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 0.0,6.0
+[25/05/2025 15:10:46] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,2.0
+[25/05/2025 15:10:46] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,1.0
+[25/05/2025 15:10:46] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,0.0
+[25/05/2025 15:10:46] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,2.0
+[25/05/2025 15:10:46] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 1.0,1.0
+[25/05/2025 15:10:46] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 0.0,0.0
+[25/05/2025 15:10:46] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 8.0,8.0
+[25/05/2025 15:10:46] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@436a4e4b
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Bishop at pixel: (8.0,7.0) (tile: 256.0,224.0)
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 8.0
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 9.0
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 10.0
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 11.0
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 8.0
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 9.0
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 10.0
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 11.0
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 6.0
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 5.0
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 4.0
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 3.0
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 2.0
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 1.0
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 15.0, 0.0
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 6.0
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 5.0
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 4.0
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 3.0
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 2.0
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 1.0
+[25/05/2025 15:10:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 1.0, 0.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 12.0,3.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,8.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,9.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,10.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,11.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,8.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,9.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,10.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,11.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,6.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,5.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,4.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,3.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,2.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,1.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 15.0,0.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,6.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,5.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,4.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,3.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,2.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,1.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 1.0,0.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 12.0,3.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@475e586c
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Bishop at pixel: (12.0,3.0) (tile: 384.0,96.0)
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 4.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 5.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 15.0, 6.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 16.0, 7.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 17.0, 8.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 18.0, 9.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 19.0, 10.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 4.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 5.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 6.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 7.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 8.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 9.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 10.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 11.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 2.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 1.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 15.0, 0.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 2.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 1.0
+[25/05/2025 15:10:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 0.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 15.0,6.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,4.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,5.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 15.0,6.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 16.0,7.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 17.0,8.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 18.0,9.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 19.0,10.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,4.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,5.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,6.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,7.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,8.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,9.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,10.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,11.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,2.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,1.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 15.0,0.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,2.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,1.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,0.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 15.0,6.0
+[25/05/2025 15:10:50] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:10:52] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@475e586c
+[25/05/2025 15:10:52] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Bishop at pixel: (15.0,3.0) (tile: 480.0,96.0)
+[25/05/2025 15:10:52] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:10:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 16.0, 4.0
+[25/05/2025 15:10:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 17.0, 5.0
+[25/05/2025 15:10:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 18.0, 6.0
+[25/05/2025 15:10:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 19.0, 7.0
+[25/05/2025 15:10:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 4.0
+[25/05/2025 15:10:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 5.0
+[25/05/2025 15:10:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 6.0
+[25/05/2025 15:10:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 7.0
+[25/05/2025 15:10:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 8.0
+[25/05/2025 15:10:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 9.0
+[25/05/2025 15:10:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 10.0
+[25/05/2025 15:10:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 11.0
+[25/05/2025 15:10:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 16.0, 2.0
+[25/05/2025 15:10:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 17.0, 1.0
+[25/05/2025 15:10:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 18.0, 0.0
+[25/05/2025 15:10:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 2.0
+[25/05/2025 15:10:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 1.0
+[25/05/2025 15:10:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 0.0
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 10.0,8.0
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 16.0,4.0
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 17.0,5.0
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 18.0,6.0
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 19.0,7.0
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,4.0
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,5.0
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,6.0
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,7.0
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,8.0
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,9.0
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,10.0
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,11.0
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 16.0,2.0
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 17.0,1.0
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 18.0,0.0
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,2.0
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,1.0
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,0.0
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 10.0,8.0
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:10:53] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@657c8ad9
+[25/05/2025 15:10:56] [INFO] class com.badlogic.gdx.utils.Logger: Changing map to level: 4
+[25/05/2025 15:10:56] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded successfully: Map_Assets/Map_Level_4.tmx
+[25/05/2025 15:10:56] [INFO] class com.badlogic.gdx.utils.Logger: MapController initialized with map: Map_Assets/Map_Level_4.tmx
+[25/05/2025 15:10:56] [INFO] class com.badlogic.gdx.utils.Logger: Block polygon loaded: 13
+[25/05/2025 15:10:56] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: w_Rook at tilePosition: (3.0,9.0)
+[25/05/2025 15:10:56] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: w_King at tilePosition: (3.0,6.0)
+[25/05/2025 15:10:56] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: b_Bishop at tilePosition: (10.0,4.0)
+[25/05/2025 15:10:56] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@f2f2cc1
+[25/05/2025 15:10:56] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@3a079870
+[25/05/2025 15:10:56] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@3b2cf7ab
+[25/05/2025 15:10:58] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_King at pixel: (3.0,6.0) (tile: 96.0,192.0)
+[25/05/2025 15:10:58] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:10:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 5.0
+[25/05/2025 15:10:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 6.0
+[25/05/2025 15:10:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 7.0
+[25/05/2025 15:10:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 5.0
+[25/05/2025 15:10:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 7.0
+[25/05/2025 15:10:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 5.0
+[25/05/2025 15:10:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 6.0
+[25/05/2025 15:10:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 7.0
+[25/05/2025 15:10:58] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 4.0,6.0
+[25/05/2025 15:10:58] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,5.0
+[25/05/2025 15:10:58] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,6.0
+[25/05/2025 15:10:58] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,7.0
+[25/05/2025 15:10:58] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,5.0
+[25/05/2025 15:10:58] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,7.0
+[25/05/2025 15:10:58] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,5.0
+[25/05/2025 15:10:58] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,6.0
+[25/05/2025 15:10:58] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,7.0
+[25/05/2025 15:10:58] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 4.0,6.0
+[25/05/2025 15:10:58] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@3a079870
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Rook at pixel: (3.0,9.0) (tile: 96.0,288.0)
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 9.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 9.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 9.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 9.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 9.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 9.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 9.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 9.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 9.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 9.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 9.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 15.0, 9.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 16.0, 9.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 17.0, 9.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 18.0, 9.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 19.0, 9.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 9.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 1.0, 9.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 0.0, 9.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 10.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 11.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 8.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 7.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 6.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 5.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 4.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 3.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 2.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 1.0
+[25/05/2025 15:10:59] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 0.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 10.0,9.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,9.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,9.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,9.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,9.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,9.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,9.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,9.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,9.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,9.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,9.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,9.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 15.0,9.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 16.0,9.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 17.0,9.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 18.0,9.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 19.0,9.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,9.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 1.0,9.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 0.0,9.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,10.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,11.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,8.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,7.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,6.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,5.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,4.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,3.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,2.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,1.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,0.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 10.0,9.0
+[25/05/2025 15:11:01] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@2aa5fe93
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Rook at pixel: (10.0,6.0) (tile: 320.0,192.0)
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 6.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 6.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 6.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 6.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 15.0, 6.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 16.0, 6.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 17.0, 6.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 18.0, 6.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 19.0, 6.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 6.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 6.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 6.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 6.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 6.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 6.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 6.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 6.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 1.0, 6.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 0.0, 6.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 7.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 8.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 9.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 10.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 11.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 5.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 4.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 3.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 2.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 1.0
+[25/05/2025 15:11:02] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 0.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 10.0,4.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,6.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,6.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,6.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,6.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 15.0,6.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 16.0,6.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 17.0,6.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 18.0,6.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 19.0,6.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,6.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,6.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,6.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,6.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,6.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,6.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,6.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,6.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 1.0,6.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 0.0,6.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,7.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,8.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,9.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,10.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,11.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,5.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,4.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,3.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,2.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,1.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,0.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 10.0,4.0
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:11:03] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@3b2cf7ab
+[25/05/2025 15:11:05] [INFO] class com.badlogic.gdx.utils.Logger: Changing map to level: 5
+[25/05/2025 15:11:05] [INFO] class com.badlogic.gdx.utils.Logger: Map loaded successfully: Map_Assets/Map_Level_5.tmx
+[25/05/2025 15:11:05] [INFO] class com.badlogic.gdx.utils.Logger: MapController initialized with map: Map_Assets/Map_Level_5.tmx
+[25/05/2025 15:11:05] [INFO] class com.badlogic.gdx.utils.Logger: Block polygon loaded: 13
+[25/05/2025 15:11:05] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: w_King at tilePosition: (4.0,7.0)
+[25/05/2025 15:11:05] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: w_Bishop at tilePosition: (7.0,3.0)
+[25/05/2025 15:11:05] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: w_Bishop at tilePosition: (15.0,3.0)
+[25/05/2025 15:11:05] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: b_Bishop at tilePosition: (13.0,8.0)
+[25/05/2025 15:11:05] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@5c1a8622
+[25/05/2025 15:11:05] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@5ad851c9
+[25/05/2025 15:11:05] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@5ad851c9
+[25/05/2025 15:11:05] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@6156496
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Bishop at pixel: (7.0,3.0) (tile: 224.0,96.0)
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 4.0
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 5.0
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 6.0
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 7.0
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 8.0
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 9.0
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 10.0
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 15.0, 11.0
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 4.0
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 5.0
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 6.0
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 7.0
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 8.0
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 1.0, 9.0
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 0.0, 10.0
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 2.0
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 1.0
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 0.0
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 2.0
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 1.0
+[25/05/2025 15:11:06] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 0.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 11.0,7.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,4.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,5.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,6.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,7.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,8.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,9.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,10.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 15.0,11.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,4.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,5.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,6.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,7.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,8.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 1.0,9.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 0.0,10.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,2.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,1.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,0.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,2.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,1.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,0.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 11.0,7.0
+[25/05/2025 15:11:07] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:11:09] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@5ad851c9
+[25/05/2025 15:11:09] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Bishop at pixel: (15.0,3.0) (tile: 480.0,96.0)
+[25/05/2025 15:11:09] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:11:09] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 16.0, 4.0
+[25/05/2025 15:11:09] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 17.0, 5.0
+[25/05/2025 15:11:09] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 18.0, 6.0
+[25/05/2025 15:11:09] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 19.0, 7.0
+[25/05/2025 15:11:09] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 4.0
+[25/05/2025 15:11:09] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 5.0
+[25/05/2025 15:11:09] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 6.0
+[25/05/2025 15:11:09] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 7.0
+[25/05/2025 15:11:09] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 8.0
+[25/05/2025 15:11:09] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 9.0
+[25/05/2025 15:11:09] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 10.0
+[25/05/2025 15:11:09] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 11.0
+[25/05/2025 15:11:09] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 16.0, 2.0
+[25/05/2025 15:11:09] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 17.0, 1.0
+[25/05/2025 15:11:09] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 18.0, 0.0
+[25/05/2025 15:11:09] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 2.0
+[25/05/2025 15:11:09] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 1.0
+[25/05/2025 15:11:09] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 0.0
+[25/05/2025 15:11:10] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 11.0,7.0
+[25/05/2025 15:11:10] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 16.0,4.0
+[25/05/2025 15:11:10] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 17.0,5.0
+[25/05/2025 15:11:10] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 18.0,6.0
+[25/05/2025 15:11:10] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 19.0,7.0
+[25/05/2025 15:11:10] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,4.0
+[25/05/2025 15:11:10] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,5.0
+[25/05/2025 15:11:10] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,6.0
+[25/05/2025 15:11:10] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,7.0
+[25/05/2025 15:11:10] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,8.0
+[25/05/2025 15:11:10] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,9.0
+[25/05/2025 15:11:10] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,10.0
+[25/05/2025 15:11:10] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,11.0
+[25/05/2025 15:11:10] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 16.0,2.0
+[25/05/2025 15:11:10] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 17.0,1.0
+[25/05/2025 15:11:10] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 18.0,0.0
+[25/05/2025 15:11:10] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,2.0
+[25/05/2025 15:11:10] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,1.0
+[25/05/2025 15:11:10] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,0.0
+[25/05/2025 15:11:10] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 11.0,7.0
+[25/05/2025 15:11:10] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Bishop at pixel: (11.0,4.05871) (tile: 352.0,129.87872)
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 5.0
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 6.0
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 7.0
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 15.0, 8.0
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 16.0, 9.0
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 17.0, 10.0
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 18.0, 11.0
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 5.0
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 6.0
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 7.0
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 8.0
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 9.0
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 10.0
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 11.0
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 3.0
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 2.0
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 1.0
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 15.0, 0.0
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 3.0
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 2.0
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 1.0
+[25/05/2025 15:11:11] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 0.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 8.0,7.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,5.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,6.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,7.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 15.0,8.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 16.0,9.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 17.0,10.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 18.0,11.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,5.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,6.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,7.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,8.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,9.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,10.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,11.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,3.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,2.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,1.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 15.0,0.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,3.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,2.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,1.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,0.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 8.0,7.0
+[25/05/2025 15:11:14] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:11:15] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@5c1a8622
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Bishop at pixel: (11.0,3.0) (tile: 352.0,96.0)
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 4.0
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 5.0
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 6.0
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 15.0, 7.0
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 16.0, 8.0
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 17.0, 9.0
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 18.0, 10.0
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 19.0, 11.0
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 4.0
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 5.0
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 6.0
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 7.0
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 8.0
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 9.0
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 10.0
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 11.0
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 2.0
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 1.0
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 0.0
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 2.0
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 1.0
+[25/05/2025 15:11:16] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 0.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 7.0,7.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,4.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,5.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,6.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 15.0,7.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 16.0,8.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 17.0,9.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 18.0,10.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 19.0,11.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,4.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,5.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,6.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,7.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,8.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,9.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,10.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,11.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,2.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,1.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,0.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,2.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,1.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,0.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 7.0,7.0
+[25/05/2025 15:11:19] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@5c1a8622
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Bishop at pixel: (7.0,7.0) (tile: 224.0,224.0)
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 8.0
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 9.0
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 10.0
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 11.0
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 8.0
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 9.0
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 10.0
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 11.0
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 6.0
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 5.0
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 4.0
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 3.0
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 2.0
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 1.0
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 0.0
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 6.0
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 5.0
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 4.0
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 3.0
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 2.0
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 1.0, 1.0
+[25/05/2025 15:11:20] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 0.0, 0.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 8.0,8.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,8.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,9.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,10.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,11.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,8.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,9.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,10.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,11.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,6.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,5.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,4.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,3.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,2.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,1.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,0.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,6.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,5.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,4.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,3.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,2.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 1.0,1.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 0.0,0.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 8.0,8.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Bishop at pixel: (8.0,7.997529) (tile: 256.0,255.92093)
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 8.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 9.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 10.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 11.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 8.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 9.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 10.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 11.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 6.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 5.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 4.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 3.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 2.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 1.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 15.0, 0.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 6.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 5.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 4.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 3.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 2.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 1.0
+[25/05/2025 15:11:22] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 1.0, 0.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 8.0,7.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,8.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,9.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,10.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,11.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,8.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,9.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,10.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,11.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,6.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,5.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,4.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,3.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,2.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,1.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 15.0,0.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,6.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,5.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,4.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,3.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,2.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,1.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 1.0,0.0
+[25/05/2025 15:11:23] [INFO] class com.badlogic.gdx.utils.Logger: Invalid move.
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Bishop at pixel: (8.0,7.0) (tile: 256.0,224.0)
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 8.0
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 9.0
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 10.0
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 11.0
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 8.0
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 9.0
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 10.0
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 11.0
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 6.0
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 5.0
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 4.0
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 3.0
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 2.0
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 1.0
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 15.0, 0.0
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 6.0
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 5.0
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 4.0
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 3.0
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 2.0
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 1.0
+[25/05/2025 15:11:24] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 1.0, 0.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 6.0,9.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,8.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,9.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,10.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,11.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,8.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,9.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,10.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,11.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,6.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,5.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,4.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,3.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,2.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,1.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 15.0,0.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,6.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,5.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,4.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,3.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,2.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,1.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 1.0,0.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 6.0,9.0
+[25/05/2025 15:11:25] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:11:26] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@5c1a8622
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Bishop at pixel: (8.0,7.997529) (tile: 256.0,255.92093)
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 8.0
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 9.0
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 10.0
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 11.0
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 8.0
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 9.0
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 10.0
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 11.0
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 6.0
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 5.0
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 4.0
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 3.0
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 2.0
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 1.0
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 15.0, 0.0
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 6.0
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 5.0
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 4.0
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 3.0
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 2.0
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 1.0
+[25/05/2025 15:11:27] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 1.0, 0.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 8.0,7.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,8.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,9.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,10.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,11.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,8.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,9.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,10.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,11.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,6.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,5.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,4.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,3.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,2.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,1.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 15.0,0.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,6.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,5.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,4.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,3.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,2.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,1.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 1.0,0.0
+[25/05/2025 15:11:31] [INFO] class com.badlogic.gdx.utils.Logger: Invalid move.
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Bishop at pixel: (8.0,7.997529) (tile: 256.0,255.92093)
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 8.0
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 9.0
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 10.0
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 11.0
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 8.0
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 9.0
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 10.0
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 11.0
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 6.0
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 5.0
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 4.0
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 3.0
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 2.0
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 1.0
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 15.0, 0.0
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 6.0
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 5.0
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 4.0
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 3.0
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 2.0
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 1.0
+[25/05/2025 15:11:32] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 1.0, 0.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 7.0,8.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,8.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,9.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,10.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,11.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,8.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,9.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,10.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,11.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,6.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,5.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,4.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,3.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,2.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,1.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 15.0,0.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,6.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,5.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,4.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,3.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,2.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,1.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 1.0,0.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 7.0,8.0
+[25/05/2025 15:11:33] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Bishop at pixel: (7.0,7.997117) (tile: 224.0,255.90775)
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 8.0
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 9.0
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 10.0
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 11.0
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 8.0
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 9.0
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 10.0
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 11.0
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 6.0
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 5.0
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 4.0
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 3.0
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 2.0
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 1.0
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 0.0
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 6.0
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 5.0
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 4.0
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 3.0
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 2.0
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 1.0, 1.0
+[25/05/2025 15:11:34] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 0.0, 0.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 8.0,7.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,8.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,9.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,10.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,11.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,8.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,9.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,10.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,11.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,6.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,5.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,4.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,3.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,2.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,1.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,0.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,6.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,5.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,4.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,3.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,2.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 1.0,1.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 0.0,0.0
+[25/05/2025 15:11:38] [INFO] class com.badlogic.gdx.utils.Logger: Invalid move.
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Bishop at pixel: (7.0,7.997117) (tile: 224.0,255.90775)
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 8.0
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 9.0
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 10.0
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 11.0
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 8.0
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 9.0
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 10.0
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 11.0
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 6.0
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 5.0
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 4.0
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 3.0
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 2.0
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 1.0
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 0.0
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 6.0
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 5.0
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 4.0
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 3.0
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 2.0
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 1.0, 1.0
+[25/05/2025 15:11:39] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 0.0, 0.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 8.0,6.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,8.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,9.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,10.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,11.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,8.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,9.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,10.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,11.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,6.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,5.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,4.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,3.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,2.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,1.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,0.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,6.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,5.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,4.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,3.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,2.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 1.0,1.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 0.0,0.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 8.0,6.0
+[25/05/2025 15:11:40] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:11:41] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@5ad851c9
+[25/05/2025 15:11:41] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Bishop at pixel: (8.0,3.0) (tile: 256.0,96.0)
+[25/05/2025 15:11:41] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:11:41] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 4.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 5.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 6.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 7.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 8.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 9.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 15.0, 10.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 16.0, 11.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 4.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 5.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 6.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 7.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 8.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 9.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 1.0, 10.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 0.0, 11.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 2.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 1.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 0.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 2.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 1.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 0.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 11.0,6.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,4.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,5.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,6.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,7.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,8.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,9.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 15.0,10.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 16.0,11.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,4.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,5.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,6.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,7.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,8.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,9.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 1.0,10.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 0.0,11.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,2.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,1.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,0.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,2.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,1.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,0.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 11.0,6.0
+[25/05/2025 15:11:42] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:11:44] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@5ad851c9
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Bishop at pixel: (6.0,7.0) (tile: 192.0,224.0)
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 8.0
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 9.0
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 10.0
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 11.0
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 8.0
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 9.0
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 10.0
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 11.0
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 6.0
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 5.0
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 4.0
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 3.0
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 2.0
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 1.0
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 0.0
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 6.0
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 5.0
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 4.0
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 3.0
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 1.0, 2.0
+[25/05/2025 15:11:47] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 0.0, 1.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 7.0,8.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,8.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,9.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,10.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,11.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,8.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,9.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,10.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,11.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,6.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,5.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,4.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,3.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,2.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,1.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,0.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,6.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,5.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,4.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,3.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 1.0,2.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 0.0,1.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 7.0,8.0
+[25/05/2025 15:11:48] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@5c1a8622
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Bishop at pixel: (11.0,3.0) (tile: 352.0,96.0)
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 4.0
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 5.0
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 6.0
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 15.0, 7.0
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 16.0, 8.0
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 17.0, 9.0
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 18.0, 10.0
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 19.0, 11.0
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 4.0
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 5.0
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 6.0
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 7.0
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 8.0
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 9.0
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 10.0
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 11.0
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 2.0
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 1.0
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 0.0
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 2.0
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 1.0
+[25/05/2025 15:11:49] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 0.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 7.0,7.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,4.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,5.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,6.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 15.0,7.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 16.0,8.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 17.0,9.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 18.0,10.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 19.0,11.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,4.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,5.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,6.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,7.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,8.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,9.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,10.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,11.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,2.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,1.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,0.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,2.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,1.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,0.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 7.0,7.0
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:11:51] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@5c1a8622
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Bishop at pixel: (7.0,7.0) (tile: 224.0,224.0)
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 8.0
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 9.0
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 10.0
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 11.0
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 8.0
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 9.0
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 10.0
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 11.0
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 6.0
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 5.0
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 4.0
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 11.0, 3.0
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 2.0
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 1.0
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 0.0
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 6.0
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 5.0
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 4.0
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 3.0
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 2.0, 2.0
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 1.0, 1.0
+[25/05/2025 15:11:52] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 0.0, 0.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 11.0,3.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,8.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,9.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,10.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,11.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,8.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,9.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,10.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,11.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,6.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,5.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,4.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 11.0,3.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,2.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,1.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,0.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,6.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,5.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,4.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,3.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 2.0,2.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 1.0,1.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 0.0,0.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Moving to: 11.0,3.0
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Chess moved.
+[25/05/2025 15:11:55] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece is grounded on platform: com.badlogic.gdx.math.Polygon@5ad851c9
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger: Selected chess: w_Bishop at pixel: (11.0,3.0) (tile: 352.0,96.0)
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger: Danh sách nước đi hợp lệ:
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 4.0
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 5.0
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 6.0
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 15.0, 7.0
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 16.0, 8.0
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 17.0, 9.0
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 18.0, 10.0
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 19.0, 11.0
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 4.0
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 5.0
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 6.0
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 7.0, 7.0
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 6.0, 8.0
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 5.0, 9.0
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 4.0, 10.0
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 3.0, 11.0
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 12.0, 2.0
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 13.0, 1.0
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 14.0, 0.0
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 10.0, 2.0
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 9.0, 1.0
+[25/05/2025 15:11:58] [INFO] class com.badlogic.gdx.utils.Logger:  - Move to: 8.0, 0.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Clicked tile: 11.0,3.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,4.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,5.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,6.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 15.0,7.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 16.0,8.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 17.0,9.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 18.0,10.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 19.0,11.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,4.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,5.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,6.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 7.0,7.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 6.0,8.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 5.0,9.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 4.0,10.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 3.0,11.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 12.0,2.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 13.0,1.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 14.0,0.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 10.0,2.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 9.0,1.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Comparing with valid move: 8.0,0.0
+[25/05/2025 15:12:00] [INFO] class com.badlogic.gdx.utils.Logger: Invalid move.
+[25/05/2025 15:12:06] [INFO] class com.badlogic.gdx.utils.Logger: Game disposed - Unloaded Game Screen

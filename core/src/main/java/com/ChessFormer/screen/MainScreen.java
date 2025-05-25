@@ -1,4 +1,5 @@
 package com.ChessFormer.screen;
+import com.ChessFormer.model.chess.ChessFactory;
 
 import com.ChessFormer.ChessFormer;
 import com.ChessFormer.FileLogger;
@@ -180,7 +181,8 @@ public class MainScreen implements Screen {
 
                 float tileX = x * UNIT_SCALE;
                 float tileY = y * UNIT_SCALE;
-                Chess chess = new Chess(name, new Vector2(tileX, tileY), texturePath);
+                boolean isWhite = true;
+                Chess chess = ChessFactory.createChess(name, new Vector2(tileX, tileY), isWhite);
                 playChessList.add(chess);
             }
         }

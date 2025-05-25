@@ -2,7 +2,6 @@ package com.ChessFormer.controller;
 
 import com.ChessFormer.FileLogger;
 import com.ChessFormer.model.chess.Chess;
-import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.maps.MapLayer;
 import com.badlogic.gdx.maps.MapObject;
@@ -16,6 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static com.ChessFormer.Game_Utilz.UNIT_SCALE;
+import com.ChessFormer.model.chess.ChessFactory;
 
 public class MapController {
 
@@ -26,6 +26,11 @@ public class MapController {
     private Chess selectedChess;
     private FileLogger LOGGER;
     private int mapLevel;
+    private List<Polygon> platforms = new ArrayList<>();
+
+    public List<Chess> getChessList() {
+        return chessList;
+    }
 
     public MapController(int mapLevel) {
         LOGGER = new FileLogger(MapController.class.getName());
@@ -37,6 +42,21 @@ public class MapController {
         selectedChess = null;
         LOGGER.info("MapController initialized with map: " + mapPath);
     }
+    private void loadBlockPolygons() {
+        MapLayer blockLayer = map.getLayers().get("block");
+        if (blockLayer != null) {
+            for (MapObject object : blockLayer.getObjects()) {
+                if (object instanceof PolygonMapObject) {
+                    Polygon polygon = ((PolygonMapObject) object).getPolygon();
+                    platforms.add(polygon);
+                    LOGGER.info("Block polygon loaded: " + polygon.getVertices().length);
+                }
+            }
+        } else {
+            LOGGER.info("");
+        }
+    }
+
 
     public void show() {
         loadBlockPolys();
@@ -48,7 +68,9 @@ public class MapController {
         for (Chess chess : chessList) {
             chess.update(delta, blockPolys, chessList);
         }
-        targetChess.update(delta, blockPolys, chessList);
+        if (targetChess != null) {
+            targetChess.update(delta, blockPolys, chessList);
+        }
     }
 
     public TiledMap getMap() {
@@ -59,7 +81,7 @@ public class MapController {
         try {
             this.map = new TmxMapLoader().load(mapPath);
             LOGGER.info("Map loaded successfully: " + mapPath);
-        }   catch (Exception e) {
+        } catch (Exception e) {
             LOGGER.error("Error loading map: " + e.getMessage());
         }
     }
@@ -73,8 +95,7 @@ public class MapController {
                     blockPolys.add(((PolygonMapObject) obj).getPolygon());
                 }
             }
-        }
-        else{
+        } else {
             LOGGER.info("Block layer not found in the map.");
         }
         LOGGER.info("Block polygon loaded: " + blockPolys.size());
@@ -85,57 +106,64 @@ public class MapController {
         MapLayer playerChessLayer = map.getLayers().get("PlayerChess");
 
         if (playerChessLayer != null) {
-            for(MapObject obj : playerChessLayer.getObjects()) {
+            for (MapObject obj : playerChessLayer.getObjects()) {
                 float x = obj.getProperties().get("x", Float.class);
                 float y = obj.getProperties().get("y", Float.class) - 32;
                 String name = obj.getName();
 
-                String texturePath = "Chess_Assets/" + "w_" + name + ".png"; // Đường dẫn đến hình ảnh quân cờ
+                String texturePath = "Chess_Assets/" + "w_" + name + ".png";
 
                 float tileX = x * UNIT_SCALE;
                 float tileY = y * UNIT_SCALE;
-                Chess chess = new Chess(name, new Vector2(tileX, tileY), texturePath);
+                boolean isWhite = true;
+                Chess chess = ChessFactory.createChess(name, new Vector2(tileX, tileY), isWhite);
+
                 chessList.add(chess);
             }
         }
 
         MapLayer targetChessLayer = map.getLayers().get("TargetChess");
         if (targetChessLayer != null) {
-            for(MapObject obj : targetChessLayer.getObjects()){
+            for (MapObject obj : targetChessLayer.getObjects()) {
                 float x = obj.getProperties().get("x", Float.class);
                 float y = obj.getProperties().get("y", Float.class) - 32;
 
-                targetChess = new Chess("TargetChess", new Vector2(x * UNIT_SCALE, y * UNIT_SCALE), "Chess_Assets/b_Bishop.png");
+                boolean isWhite = false;
+                targetChess = ChessFactory.createChess("targetchess", new Vector2(x * UNIT_SCALE, y * UNIT_SCALE), isWhite);
             }
         }
     }
-    
+
     public void draw(SpriteBatch batch) {
         for (Chess chess : chessList) {
             chess.draw(batch);
         }
-        targetChess.draw(batch);
+        if (targetChess != null) {
+            targetChess.draw(batch);
+        }
     }
 
     public void touchDown(float x, float y) {
-        for(Chess chess : chessList) {
-            if(chess.getTileBounds().contains(x, y)) {
+        for (Chess chess : chessList) {
+            if (chess.getTileBounds().contains(x, y)) {
                 selectedChess = chess;
                 LOGGER.info("Selected chess: " + chess.getName() + " at position: " + chess.getPosition());
                 LOGGER.info("Selected chess tile bounds: " + chess.getTileBounds());
             }
         }
         if (selectedChess != null) {
-            selectedChess.moveTo((int)x ,(int)y);
+            selectedChess.moveTo((int) x, (int) y);
         }
     }
 
-    public int getMapLevel() {  return mapLevel;}
+    public int getMapLevel() {
+        return mapLevel;
+    }
 
-    public void checkIfHitTargetChess(){
-        if (targetChess.IsRotating() == true) return;
-        for(Chess chess : chessList) {
-            if (chess.getPosition().equals(targetChess.getPosition())) {
+    public void checkIfHitTargetChess() {
+        if (targetChess == null || targetChess.IsRotating()) return;
+        for (Chess chess : chessList) {
+            if (chess.getPosition().epsilonEquals(targetChess.getPosition(), 0.01f)) {
                 targetChess.setRotation(true);
                 return;
             }
@@ -143,8 +171,29 @@ public class MapController {
     }
 
     public boolean ifChangeMap() {
-        return targetChess.getPosition().y < -1;
+        return targetChess != null && targetChess.getPosition().y < -1;
     }
+
+    public Chess[][] generateBoardFromList(List<Chess> list) {
+        int columns = 20; // Chiều ngang (OX)
+        int rows = 12;    // Chiều dọc (OY)
+        Chess[][] board = new Chess[rows][columns]; // board[y][x]
+
+        for (Chess chess : list) {
+            int x = (int)(chess.getPosition().x / UNIT_SCALE); // Chuyển pixel -> tile
+            int y = (int)(chess.getPosition().y / UNIT_SCALE);
+//            int x = (int)(chess.getPosition().x );
+//            int y = (int)(chess.getPosition().y );
+
+            if (x >= 0 && x < columns && y >= 0 && y < rows) {
+                board[y][x] = chess; // ⚠️ Truy cập theo [y][x]
+            }
+        }
+
+        return board;
+    }
+
+
 
     public void dispose() {
         if (map != null) {
@@ -152,4 +201,17 @@ public class MapController {
         }
     }
 
+    public Chess getChessAtPosition(Vector2 worldPos) {
+        for (Chess chess : chessList) {
+            if (chess.getTileBounds().contains(worldPos.x, worldPos.y)) {
+                return chess;
+            }
+        }
+        return null;
+    }
+    public List<Polygon> getPlatforms() {
+        return platforms;
+    }
+
 }
+
