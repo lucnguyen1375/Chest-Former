@@ -13,7 +13,7 @@
   <object id="30" name="King" x="320" y="288">
    <polygon points="0,0 32,0 32,32 0,32"/>
   </object>
-  <object id="31" name="Pawn" x="448" y="224">
+  <object id="31" name="Bishop" x="448" y="224">
    <polygon points="0,0 32,0 32,32 0,32"/>
   </object>
  </objectgroup>
