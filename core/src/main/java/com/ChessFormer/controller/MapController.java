@@ -2,6 +2,7 @@ package com.ChessFormer.controller;
 
 import com.ChessFormer.FileLogger;
 import com.ChessFormer.model.chess.Chess;
+import com.ChessFormer.screen.Button;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
@@ -31,7 +32,8 @@ public class MapController {
     private FileLogger LOGGER;
     private int mapLevel;
 
-    List<Sprite> greenBarSprites = new ArrayList<>();
+    private List<Sprite> greenBarSprites = new ArrayList<>();
+    private List<ButtonData> buttonList = new ArrayList<>();
 
     public MapController(int mapLevel) {
         LOGGER = new FileLogger(MapController.class.getName());
@@ -48,6 +50,7 @@ public class MapController {
         loadBlockPolys();
         loadChess();
         loadGreenBar();
+
         for(Sprite sprite : greenBarSprites)
             System.out.println(sprite.getX() + " " + sprite.getY());
     }
@@ -142,6 +145,7 @@ public class MapController {
         }
     }
 
+
     public void draw(SpriteBatch batch) {
         for (Chess chess : chessList) {
             chess.draw(batch);
@@ -188,4 +192,22 @@ public class MapController {
         }
     }
 
+    public class ButtonData {
+        public String name;
+        public float x, y;
+
+        public ButtonData(String name, float x, float y) {
+            this.name = name;
+            this.x = x;
+            this.y = y;
+        }
+    }
+    public List<ButtonData> getButtonData() {
+        return buttonList;
+    }
+
+
+
 }
+
+
