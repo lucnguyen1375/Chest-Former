@@ -8,8 +8,8 @@ https://github.com/lucnguyen1375/Chest-Former
 - Nguyễn Văn Minh Lực
 - Văn Thị Mai Linh
 - Đỗ Đức Tuấn Anh
-- [Mentor]: Anh Bùi Thế Vĩnh Nguyên 
-- [Mentor]: Chị Đoàn Thảo Vân
+- [Mentor] Anh Bùi Thế Vĩnh Nguyên
+- [Mentor] Chị Đoàn Thảo Vân
 #### Mô hình làm việc
 - Team hoạt động theo mô hình Scrum, sử dụng Linear để quản lí công việc. Các công việc được keep track đầy đủ trên Linear: https://linear.app/lucnguyen/team/CF/all
 - Mỗi tuần team sẽ ngồi lại để review công việc đã làm, cùng nhau giải quyết vấn đề và đề xuất giải pháp cho tuần tiếp theo. Sau đó sẽ có buổi demo cho mentor để nhận phản hồi và hướng dẫn
