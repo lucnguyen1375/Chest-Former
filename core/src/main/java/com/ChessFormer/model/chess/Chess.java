@@ -64,15 +64,13 @@ public class Chess {
         if (isMoving) {
             moveProcess(delta);
         }
-        else if (isGrounded == false && isOnOtherChess == false) {
+        else if (!checkIfGrounded(platforms, barSprite) && !checkIfOnOtherChess(chessList)) {
             dropProcess(delta, platforms, chessList, barSprite);
         }
-//        else if (isRotating) {
-//            velocity.set(0, -3f);
-//            rotationProcess(delta);
-//        }
-//
-//        sprite.setRotation(rotation);
+        else{
+            position.x = (int)position.x;
+            position.y = (int)position.y;
+        }
         sprite.setPosition(position.x, position.y);
     }
 
@@ -90,7 +88,7 @@ public class Chess {
         for(Polygon platform : platforms) {
             Rectangle platformBounds = platform.getBoundingRectangle();
             if (tmpBounds.overlaps(platformBounds)) {
-                LOGGER.info("Chess piece is grounded on platform: " + platform);
+//                LOGGER.info("Chess piece is grounded on platform: " + platform);
                 return true;
             }
         }
@@ -100,7 +98,7 @@ public class Chess {
             Rectangle bounds = barSprite.getBoundingRectangle();
             Rectangle barSpriteBounds = new Rectangle(bounds.x / UNIT_SCALE, bounds.y / UNIT_SCALE, 32, 32);
             if (tmpBounds.overlaps(barSpriteBounds)) {
-                LOGGER.info("Chess piece is grounded on platform: " + barSprite);
+//                LOGGER.info("Chess piece is grounded on platform: " + barSprite);
                 return true;
             }
         }
@@ -108,7 +106,7 @@ public class Chess {
     }
 
     public boolean checkIfOnOtherChess(List<Chess> chessList) {
-        Vector2 tmpPostition = new Vector2(position.x, position.y - 0.25f);
+        Vector2 tmpPostition = new Vector2(position.x+0.1f, position.y - 0.25f);
         for(Chess otherChess : chessList){
             if (this.equals(otherChess)){   continue;}
 
