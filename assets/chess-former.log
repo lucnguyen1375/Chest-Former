@@ -302,3 +302,4 @@
 [25/05/2025 20:34:24] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: Rook at tilePosition: (3.0,9.0)
 [25/05/2025 20:34:24] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: King at tilePosition: (3.0,6.0)
 [25/05/2025 20:34:24] [INFO] class com.badlogic.gdx.utils.Logger: Chess piece created: TargetChess at tilePosition: (10.0,4.0)
+[25/05/2025 21:07:18] [INFO] class com.badlogic.gdx.utils.Logger: Game disposed - Unloaded Game Screen
