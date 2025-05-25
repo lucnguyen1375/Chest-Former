@@ -2,14 +2,14 @@ package com.ChessFormer.screen;
 
 import com.ChessFormer.ChessFormer;
 import com.ChessFormer.FileLogger;
-import com.ChessFormer.model.chess.Chess;
+import com.ChessFormer.model.Button;
+import com.ChessFormer.model.Chess;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.maps.MapLayer;
@@ -20,7 +20,6 @@ import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
-import com.badlogic.gdx.scenes.scene2d.InputListener;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.*;
 import com.badlogic.gdx.scenes.scene2d.utils.ActorGestureListener;
@@ -52,6 +51,7 @@ public class MainScreen implements Screen {
     private OrthogonalTiledMapRenderer mapRenderer;
     private TiledMap map;
     private List<Chess> playChessList;
+    private Button playButton;
 
 
 
@@ -79,37 +79,27 @@ public class MainScreen implements Screen {
 
 
 
-        Texture buttonTexture = new Texture(Gdx.files.internal("Map_Assets/playbutton.png"));
-        TextureRegionDrawable buttonDrawable = new TextureRegionDrawable(new TextureRegion(buttonTexture));
-
-// Tạo ImageButton
-        ImageButton playButton = new ImageButton(buttonDrawable);
-        playButton.setSize(128, 128);
-
-// Force nội dung button co lại
-        playButton.getImage().setScaling(Scaling.fit);  // hoặc Scaling.stretch
-
-
-        playButton.addListener(new ClickListener() {
-            @Override
-            public void clicked(InputEvent event, float x, float y) {
-                // Sau khi đăng nhập đúng, chuyển sang màn chính
-                game.setScreen(new MenuScreen(game));
-            }
-        });
-        playButton.addListener(new ActorGestureListener() {
-
-            public void enter(InputEvent event, float x, float y, int pointer, Actor fromActor) {
-                playButton.setColor(1f, 0.8f, 0.5f, 1f);
-                playButton.setScale(1.1f);
-            }
+//        Texture buttonTexture = new Texture(Gdx.files.internal("Map_Assets/playbutton.png"));
+//        TextureRegionDrawable buttonDrawable = new TextureRegionDrawable(new TextureRegion(buttonTexture));
+//
+//// Tạo ImageButton
+//        ImageButton playButton = new ImageButton(buttonDrawable);
+//        playButton.setSize(128, 128);
+//
+//// Force nội dung button co lại
+//        playButton.getImage().setScaling(Scaling.fit);  // hoặc Scaling.stretch
 
 
-            public void exit(InputEvent event, float x, float y, int pointer, Actor toActor) {
-                playButton.setColor(Color.WHITE);
-                playButton.setScale(1.0f);
-            }
-        });
+
+
+//        playButton.addListener(new ClickListener() {
+//            @Override
+//            public void clicked(InputEvent event, float x, float y) {
+//                // Sau khi đăng nhập đúng, chuyển sang màn chính
+//                game.setScreen(new MenuScreen(game));
+//            }
+//        });
+
 
 
 
@@ -119,20 +109,13 @@ public class MainScreen implements Screen {
         table.setFillParent(true);
         table.top();
         // Gợi ý kích thước cân đối, ví dụ:
-        fontText.setSize(1500, 1500);  // hoặc scale lại nếu cần
+        fontText.setSize(1700, 2000);  // hoặc scale lại nếu cần
 
-// Thêm ảnh vào table, với padding để không sát mép quá
+        // Thêm ảnh vào table, với padding để không sát mép quá
         table.add(fontText).padTop(0).size(600, 400); // padTop tạo khoảng cách so với đỉnh
 
         stage.addActor(table);
-        table = new Table();
-        table.setFillParent(true);
-        table.center();
 
-        //table.add(playButton).colspan(2).padTop(10);
-        table.add(playButton).size(128, 128);
-
-        stage.addActor(table);
     }
 
     @Override
@@ -152,6 +135,13 @@ public class MainScreen implements Screen {
         mapRenderer = new OrthogonalTiledMapRenderer(map, UNIT_SCALE);
 
         loadChess();
+        playButton = new Button("playbutton", btnName -> {
+            System.out.println("Test button clicked");
+            game.setScreen(new MenuScreen(game));
+        });
+        playButton.setSize(200, 200);
+        playButton.setPosition(500, 250);
+        stage.addActor(playButton);
 
         // Thiết lập camera
         camera.setToOrtho(false, WINDOW_WIDTH / TILE_SIZE, WINDOW_HEIGHT / TILE_SIZE);

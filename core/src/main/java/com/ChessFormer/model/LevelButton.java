@@ -1,4 +1,4 @@
-package com.ChessFormer.screen;
+package com.ChessFormer.model;
 
 
 
