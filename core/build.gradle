@@ -1,6 +1,13 @@
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 eclipse.project.name = appName + '-core'
 
+// Thêm đoạn sau để chỉ định Java 23:
+java {
+  toolchain {
+    languageVersion = JavaLanguageVersion.of(23)
+  }
+}
+
 dependencies {
   api "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
   api "com.badlogicgames.gdx:gdx:$gdxVersion"
